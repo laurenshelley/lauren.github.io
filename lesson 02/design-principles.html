@@ -8,7 +8,7 @@
   <link type="text/css" rel="stylesheet" href="styles-1.css" />
   <link type="text/css" rel="stylesheet" href="normalize.css" />
   <script>
-    function blueberry() {
+    function viewTime() {
       let oLastModif = new Date(document.lastModified);
       document.getElementById("output").innerHTML = oLastModif;
     }
@@ -73,7 +73,7 @@
     <footer>
       <div class="bottom">&copy; 2020 | Lauren Shelley | <a class="link" href="https://developer.mozilla.org/en-US/">MDN
           Documentation Site</a> | BYU-Idaho
-        <button type="button" onclick="blueberry()">Click to View Last Update</button>
+        <button type="button" onclick="viewTime()">Click to View Last Update</button>
         <div id="output"></div>
       </div>
     </footer>
