@@ -33,13 +33,13 @@ img {
   margin: 0 auto;
 }
 
-nav ul {
+/*nav ul {
   list-style: none;
   margin: 0;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
-/*@media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .home-grid {
     display: block;
   }
@@ -98,6 +98,7 @@ footer {
   border: 2px solid #eee;
   border-color: #293241;
   max-width: 90%;
+  overflow-wrap: break-word;
 }
 
 .cafe-rio {
@@ -105,11 +106,12 @@ footer {
   grid-row: 1/4;
   padding: 2em;
   background-color: #98c1d9;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.29);
   border-radius: 30px;
   border: 2px solid #eee;
   border-color: #293241;
   max-width: 90%;
+  overflow-wrap: break-word;
 
 }
 
@@ -118,12 +120,12 @@ footer {
   grid-row: 1/4;
   padding: 2em;
   background-color: #98c1d9;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 30px 0 rgba(0, 0, 0, 0.29);
   border-radius: 30px;
   border: 2px solid #eee;
   border-color: #293241;
   max-width: 90%;
-
+  overflow-wrap: break-word;
 }
 
 a {
@@ -136,7 +138,7 @@ a {
 p {
   color: white;
   font-family: "Arial Black", Gadget, sans-serif;
-font-size: 20px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -145,7 +147,6 @@ h2 {
   font-family: "Arial Black", Gadget, sans-serif;
   background-color: #3d5a80;
   text-align: center;
-  padding: 0.5em;
   font-size: medium;
 }
 
