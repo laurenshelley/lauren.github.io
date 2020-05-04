@@ -8,7 +8,6 @@ h3 {
   padding: .5em;
   background-color: #98c1d9;
   text-align: center;
-  font-weight: lighter;
   border-style: ridge;
 
 }
@@ -19,9 +18,6 @@ h1 {
   padding: 0.5em;
   background-color: #293241;
   text-align: center;
-  font-weight: lighter;
-
-
 }
 
 img {
@@ -52,7 +48,6 @@ footer {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  margin: 0;
   color: black;
   background-color: #e0fbfc;
 }
@@ -147,7 +142,6 @@ h2 {
   font-family: "Arial Black", Gadget, sans-serif;
   background-color: #3d5a80;
   text-align: center;
-  font-size: medium;
 }
 
 /*div {
