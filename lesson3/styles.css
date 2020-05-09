@@ -11,8 +11,6 @@ body {
   max-height: 100px;
   max-width: 120px;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 h1,
 h2,
 h3,
@@ -87,7 +85,6 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
-  font: "Lucida Console", Monaco, monospace;
   font-size: 1em;
 }
 nav a:hover {
