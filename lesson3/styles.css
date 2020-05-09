@@ -23,11 +23,7 @@ h6 {
   background-color:whitesmoke;
   text-align: center;
 }
-nav a {
-  color: #FF5656;
-  font-size: 18px;
-  font-family: "Courier New", Courier, monospace;
-}
+
 main {
   background-color: white;
 }
@@ -65,9 +61,7 @@ img {
 li {
   font-family:"Arial Black", Gadget, sans-serif;
 }
-a {
-  font-size: 10px;
-}
+
 .logo-box {
   max-width: 100%;
   background-color: white;
@@ -80,16 +74,33 @@ header {
   grid-template-columns: 110px auto;
   align-items: center;
 }
+
 nav ul {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   margin: 0;
   font-size: 1em;
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
+}
+
+nav li a {
+    display: block;
+    color: #FF5656;    
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
 }
 nav a:hover {
   color: #028090;
   background-color: #114B5F;
+  list-style: none;
 }
 @media screen and (max-width: 550px) {
   /*beginning of media query */
@@ -98,10 +109,13 @@ nav a:hover {
   }
   /*end of media query */
 }
+
 nav {
     background-color: white;
     padding: 2em;
+    list-style: none;
 }
+
 footer {
     color: black;
     text-align: center;
@@ -116,3 +130,27 @@ footer {
     margin-right: auto;
     width: 10%;
   }
+/*.navbar-toggle {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-bars:before {
+    content: "\f0c9";
+}
