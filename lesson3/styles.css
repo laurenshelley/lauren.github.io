@@ -53,6 +53,13 @@ h5 {
   padding: 0.1em;
   text-align: center;
 }
+h6 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  background-color: #368F8B;
+}
 content {
   margin: 0 auto;
 }
@@ -188,7 +195,6 @@ footer {
     background-color: #ddbea8;
     border-radius: 50%;
     display: inline-block;
-    align-items: center;
   }
   @media screen and (max-width: 550px) {
     
