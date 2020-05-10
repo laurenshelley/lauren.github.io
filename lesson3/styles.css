@@ -11,21 +11,50 @@ body {
   max-height: 100px;
   max-width: 120px;
 }
-h1,
 h2,
 h3,
-h4,
-h5,
 h6 {
   color: black;
   font-family: "Arial Black", Gadget, sans-serif;
   padding: 0.1em;
-  background-color:whitesmoke;
   text-align: center;
+  font-size: 1.5em;
 }
-
-main {
-  background-color: white;
+h1 {
+    color: #F3DFC1;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 0.5em;
+    background-color:#246a73;
+    text-align: center;
+    font-size: 3em;
+    border-top: double;
+    border-bottom: double;
+    border-color: black;
+    border-width: .5em;
+}
+h2 {
+    color: #F3DFC1;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 0.25em;
+    background-color:#246a73;
+    text-align: center;
+    font-size: 3em;
+    border-top: double;
+    border-bottom: double;
+    
+    border-width: .5em;
+}
+h4 {
+color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  
+}
+h5 {
+    color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 0.1em;
+  text-align: center;
 }
 content {
   margin: 0 auto;
@@ -36,7 +65,7 @@ p {
   border-top: 1em;
   border-bottom: 2em;
   text-align: center;
-  padding: 1em;
+  
   margin-top: 1em;
   margin-bottom: 3em;
   color: black;
@@ -58,14 +87,14 @@ img {
   max-width: 100px;
   max-height: 120px;
 }
-li {
+/*li {
   font-family:"Arial Black", Gadget, sans-serif;
 }
-
+*/
 .logo-box {
   max-width: 100%;
   background-color: white;
-  border-radius: 50px 50px 50px 50px;
+  
   padding: 1em;
   border: 1px solid #394648;
 }
@@ -73,7 +102,43 @@ header {
   display: grid;
   grid-template-columns: 110px auto;
   align-items: center;
+  padding-top: 3em;
+
 }
+
+ /*.topnav {
+    overflow: hidden;
+    position: none;
+    padding-top: 3em;
+    display: grid;
+}
+.topnav #myLinks {
+    display: none;
+}
+.topnav a {
+    color: #160F29;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    background-color: #ddbea8;
+}
+.topnav a.icon {
+    background: black;
+    display: list-item;
+    position: fixed;
+    color: white;
+    margin: auto;
+}
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+.active {
+    background-color: black;
+    color: white;
+}*/
+
 
 nav ul {
   list-style: none;
@@ -83,31 +148,24 @@ nav ul {
   font-size: 1em;
   padding: 0;
   overflow: hidden;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(138px, 1fr));
+  
 }
 
 nav li a {
     display: block;
-    color: #FF5656;    
+    color: #160F29;    
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
-    font-size: .95rem;
+    font-size: 1.5em;
     font-family: "Courier New", Courier, monospace;
     list-style: none;
+    background-color: #ddbea8;
 }
 nav a:hover {
-  color: #028090;
+  color:  #F3DFC1;
   background-color: #114B5F;
   list-style: none;
-}
-@media screen and (max-width: 550px) {
-  /*beginning of media query */
-  nav ul {
-    display: block;
-  }
-  /*end of media query */
 }
 
 nav {
@@ -117,9 +175,11 @@ nav {
 }
 
 footer {
-    color: black;
+    color: white;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #160F29;
 }
 .logo-display {
     align-content: center;
@@ -129,28 +189,56 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 10%;
+    
   }
-/*.navbar-toggle {
-    position: absolute;
-    top: 18px;
-    right: 20px;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 24px;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.fa {
+.dot1 {
+    height: 100px;
+    width: 100px;
+    background-color: #160f29;
+    border-radius: 50%;
     display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-.fa-bars:before {
-    content: "\f0c9";
+    align-items: center;
+  }
+  .dot2 {
+    height: 100px;
+    width: 100px;
+    background-color: #246a73;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+  }
+  .dot3 {
+    height: 100px;
+    width: 100px;
+    background-color: #368f8b;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+  }
+  .dot4 {
+    height: 100px;
+    width: 100px;
+    background-color: #f3dfc1;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+  }
+  .dot5 {
+    height: 100px;
+    width: 100px;
+    background-color: #ddbea8;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+  }
+  @media screen and (max-width: 550px) {
+    
+    
+    nav ul {
+      display: block;
+    }
+    
+  }
+.spec-font {
+    font-family: "Courier New", Courier, monospace;
 }

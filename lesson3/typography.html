@@ -5,6 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+        function blueberry() {
+            let oLastModif = new Date(document.lastModified);
+
+            document.getElementById("output").innerHTML = oLastModif;
+        }
+    </script>
   </head>
   <body>
     <div id="content">
@@ -36,6 +43,24 @@
         </nav>
       </header>
       <main>
+          <h2>Heading Font:</h2>
+          <p>"Arial Black", Gadget, sans-serif</p>
+          <div class="dec-type">
+          <h3>Example:</h3>
+          <h4>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h4>
+          </div>
+          <h2>Paragraph Font: </h2>
+          <p>"Lucida Console", Monaco, monospace</p>
+          <div class="dec-type">
+          <h3>Example:</h3>
+          <p class="color-p-none">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
+            </div>
+        <h2>Tool Bar Font: </h2>
+        <p>font-family:"Courier New", Courier, monospace</p>
+        <h3>Example:</h3>
+        <p class="spec-font">
+            A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+        </p>
       </main>
       <footer>
         &copy; 2020 | Lauren Shelley | <a class="link" href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho
