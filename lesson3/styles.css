@@ -8,13 +8,13 @@ body {
   margin: 0;
 }
 
-h2,
+
 h3,
 h6 {
   color: black;
   font-family: "Arial Black", Gadget, sans-serif;
   padding: 0.1em;
-  text-align: center;
+  
   font-size: 1.5em;
 }
 h1 {
@@ -38,20 +38,19 @@ h2 {
     font-size: 3em;
     border-top: double;
     border-bottom: double;
-    
     border-width: .5em;
 }
 h4 {
 color: black;
   font-family: "Arial Black", Gadget, sans-serif;
-  text-align: center;
+  
   
 }
 h5 {
     color: black;
   font-family: "Arial Black", Gadget, sans-serif;
   padding: 0.1em;
-  text-align: center;
+  
 }
 h6 {
   font-family: "Lucida Console", Monaco, monospace;
@@ -68,8 +67,6 @@ p {
   font-size: 18px;
   border-top: 1em;
   border-bottom: 2em;
-  text-align: center;
-  
   margin-top: 1em;
   margin-bottom: 3em;
   color: black;
@@ -145,7 +142,7 @@ footer {
     text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
-    background-color: #160F29;
+    background-color: #ddbea8;
 }
 .logo-display {
     align-content: center;
