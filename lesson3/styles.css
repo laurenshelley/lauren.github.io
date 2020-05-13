@@ -6,8 +6,15 @@
 body {
   padding: 5px 25px;
   margin: 0;
+  
 }
-
+main {
+  background-color: whitesmoke;
+  padding: 5px 25px;
+}
+head {
+  background-color: whitesmoke;
+}
 
 h3,
 h6 {
@@ -21,13 +28,13 @@ h1 {
     color: #F3DFC1;
     font-family: "Arial Black", Gadget, sans-serif;
     padding: 0.5em;
-    background-color:#246a73;
+    background-color:#114B5F;
     text-align: center;
-    font-size: 3em;
-    border-top: double;
-    border-bottom: double;
-    border-color: black;
+    font-size: 2.75em;
+    border-color: #DDBEA8;
+    border-radius: 40px;
     border-width: .5em;
+    
 }
 h2 {
     color: #F3DFC1;
@@ -85,16 +92,16 @@ div {
   max-width: 960px;
 }
 img {
-  padding: 1em;
-  max-width: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .logo-box {
   max-width: 100%;
+  max-height: 100%;
   background-color: white;
-  
   padding: 1em;
-  border: 1px solid #394648;
+  border: 1px solid black;
 }
 header {
   display: grid;
@@ -132,8 +139,7 @@ nav a:hover {
 }
 
 nav {
-    background-color: white;
-    padding: 2em;
+    background-color: whitesmoke;
     list-style: none;
 }
 
