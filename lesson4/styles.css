@@ -1,7 +1,7 @@
 
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
   margin: 0 auto;
@@ -79,8 +79,8 @@ h2 {
   padding-right: 1em;
   padding-bottom: 1em;
   display: grid;
-  grid-template-columns: 4, 1fr;
-  grid-template-rows: 3, 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 .articleC {
 grid-column: 1/2;
@@ -103,8 +103,8 @@ background-color: whitesmoke;
   padding-right: 1em;
   padding-bottom: 1em;
   display: grid;
-  grid-template-columns: 3, 1fr;
-  grid-template-rows: 4, 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 .contactc {
 grid-column: 2/3;
@@ -247,8 +247,8 @@ footer {
     padding-right: 1em;
     padding-bottom: 1em;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .articleC {
   grid-column: 1/2;
@@ -272,8 +272,8 @@ footer {
     padding-right: 1em;
     padding-bottom: 1em;
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .contactc {
   grid-column: 1/2;
