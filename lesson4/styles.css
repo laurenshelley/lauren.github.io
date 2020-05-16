@@ -4,8 +4,9 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 
 body {
-  margin: 0;
+  margin: 0 auto;
   max-width: 960px;
+
 }
 main {
   padding-left: 3em;
@@ -67,8 +68,6 @@ p {
 h2 {
   line-height: 1.5em;
   font-size: 28px;
-  
-  
 }
 .forcast {
   background-color: whitesmoke;
@@ -120,9 +119,9 @@ padding-left: 1em;
   max-height: 100%;
   padding-top: .5em;
 }
-.content {
+/* #content {
   margin: 0 auto;
-}
+} */
 div {
   max-width: 960px;
 }
@@ -289,6 +288,7 @@ footer {
     max-height: 100%;
     padding-top: .5em;
   }
+
   /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -327,11 +327,24 @@ footer {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #4CAF50;
+  background-color: #F3DFC1;
   color: white;
 }
 }
 .link {
   color: #DDBEA8;
   
+}
+@media only screen and (max-width: 600px) {
+  .forcast {
+    display: none;
+  }
+  .fullpage {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .topnav {
+    display: none;
+  }
 }
