@@ -319,14 +319,14 @@ footer {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #F3DFC1;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #F3DFC1;
-  color: white;
+  background-color: #DDBEA8;
+  color: black;
 }
 }
 .link {
