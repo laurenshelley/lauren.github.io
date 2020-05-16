@@ -1,7 +1,7 @@
 
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+
 
 body {
   margin: 0 auto;
@@ -247,8 +247,8 @@ footer {
     padding-right: 1em;
     padding-bottom: 1em;
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-rows: 4, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   }
   .articleC {
   grid-column: 1/2;
@@ -272,8 +272,8 @@ footer {
     padding-right: 1em;
     padding-bottom: 1em;
     display: grid;
-    grid-template-columns: 3, 1fr;
-    grid-template-rows: 4, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
   }
   .contactc {
   grid-column: 1/2;
