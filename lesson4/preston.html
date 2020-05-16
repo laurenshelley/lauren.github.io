@@ -8,12 +8,6 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script>
-    function updated() {
-      let oLastModif = new Date(document.lastModified);
-      document.getElementById("output").innerHTML = oLastModif;
-    }
-  </script>
-  <script>
     function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -135,14 +129,13 @@
     </main>
     <footer>
       &copy; 2020 | Lauren Shelley | <a class="link" href="https://developer.mozilla.org/en-US/">MDN Documentation
-        Site</a> | BYU-Idaho
-      
-      <button type="button" onclick="updated()">Click to View Last Update</button>
-      <div id="output"></div>
-      
+        Site</a> | BYU-Idaho | Last Updated: <span id="updated"></span>
+      <script>
+        // const oLastModif = new Date(document.lastModified);
+        // document.getElementById("updated").innerHTML = oLastModif;
+        const options = {weekday: 'long', month: 'long', day: 'numeric',  year: 'numeric'};
+        document.getElementById('updated').textContent = new Date(document.lastModified).toLocaleDateString('en-us', options);
+      </script>
     </footer> 
-  
-
 </body>
-
 </html>
