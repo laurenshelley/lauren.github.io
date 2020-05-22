@@ -1,0 +1,343 @@
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+
+}
+main {
+  padding-left: 3em;
+  padding-right: 3em;
+  
+}
+.herotitle {
+  color: white;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+}
+h3,
+h6 {
+  color:#114B5F;
+  
+  font-family: "Arial Black", Gadget, sans-serif;
+  
+  text-align: center;
+  font-size: 1.25em;
+}
+h1 {
+    color: #F3DFC1;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color:#114B5F;
+    text-align: left;
+    font-size: 2em;
+}
+h2 {
+    color: #160F29;
+    font-family: "Arial Black", Gadget, sans-serif;
+   
+    
+    text-align: center;
+    font-size: 3.25em;
+}
+h4 {
+color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  
+  
+  
+}
+
+h6 {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  text-align: left;
+  color: black;
+  background-color: #368F8B;
+}
+
+p {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+}
+h2 {
+  line-height: 1.5em;
+  font-size: 28px;
+}
+.forcast {
+  background-color: whitesmoke;
+  padding: 1em;
+}
+.article {
+  background-color: whitesmoke;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.articleC {
+grid-column: 1/2;
+grid-row: 1/2;
+padding-bottom: 1em;
+}
+.articleImg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: .5em;
+}
+.one {
+background-color: whitesmoke;
+}
+.contact {
+  background-color: #ddbea8;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.contactc {
+grid-column: 2/3;
+grid-row: 1/2;
+padding-bottom: 1em;
+padding-left: 1em;
+}
+.contactimg {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: .5em;
+}
+
+div {
+  max-width: 960px;
+}
+
+.logo-img {
+  
+  max-width: 100%;
+  max-height: 100%;
+  background-color:#114B5F;
+  padding-top: 1em;
+  
+}
+.hero-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 1.5em;
+  
+}
+.top-left {
+  
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding: .75em;
+  background-color: #368F8B;
+}
+.title1 {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color:#114B5F;
+    text-align: center;
+    font-size: 2.75em;
+    padding-top: 1em;
+    
+}
+.subtitle {
+    color: #F3DFC1;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color:#114B5F;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 5em;
+    font-size: 1em;
+    padding-bottom: 1em;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 110px auto;
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color: #114B5F;
+  }
+ nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  font-size: 1em;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddbea8;
+} 
+ 
+nav li a {
+    display: block;
+    color: #160F29;    
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+    background-color: #ddbea8;
+} 
+nav a:hover {
+  color:  #F3DFC1;
+  background-color: #368F8B;
+  list-style: none;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #114B5F;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+
+  
+.spec-font {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .article {
+    background-color: whitesmoke;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .articleC {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding-bottom: 1em;
+  }
+  .articleImg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: .5em;
+  }
+  nav ul
+  {
+    display: block;
+  }
+  .contact {
+    background-color: #ddbea8;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .contactc {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  }
+  .contactimg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: .5em;
+  }
+
+  /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #F3DFC1;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #DDBEA8;
+  color: black;
+}
+}
+.link {
+  color: #DDBEA8;
+  
+}
+@media only screen and (max-width: 600px) {
+  .forcast {
+    display: none;
+  }
+  .fullpage {
+    display: none;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .topnav {
+    display: none;
+  }
+}
