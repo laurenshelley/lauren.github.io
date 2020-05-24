@@ -80,7 +80,6 @@ h2 {
 .week {
   display:grid;
   grid-template-columns: repeat(5, 1fr);
-
 }
 .border {
   border-width: 5px;
@@ -93,8 +92,8 @@ grid-row: 1/2;
 text-align: center;
 border-width: 5px;
 border-bottom-style: solid;
-background-color: #368F8B;
-padding-top: 1em;
+padding-bottom: 1.5em;
+
 }
 .two {
   grid-column: 2/3;
@@ -102,8 +101,8 @@ padding-top: 1em;
   text-align: center;
   border-width: 5px;
 border-bottom-style: solid;
-background-color: #368F8B;
-padding-top: 1em;
+padding-bottom: 1.5em;
+
 }
 .three {
   grid-column: 3/4;
@@ -111,8 +110,7 @@ padding-top: 1em;
   text-align: center;
   border-width: 5px;
 border-bottom-style: solid;
-background-color: #368F8B;
-padding-top: 1em;
+padding-bottom: 1.5em;
 }
 .four {
   grid-column: 4/5;
@@ -120,8 +118,8 @@ padding-top: 1em;
   text-align: center;
   border-width: 5px;
 border-bottom-style: solid;
-background-color: #368F8B;
-padding-top: 1em;
+padding-bottom: 1.5em;
+
 }
 .five {
   grid-column: 5/6;
@@ -129,8 +127,7 @@ padding-top: 1em;
   text-align: center;
   border-width: 5px;
 border-bottom-style: solid;
-background-color: #368F8B;
-padding-top: 1em;
+padding-bottom: 1.5em;
 }
 .one1 {
   grid-column: 1/2;
