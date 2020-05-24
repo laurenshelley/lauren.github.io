@@ -75,7 +75,7 @@ h2 {
 
 .forcast {
   background-color: whitesmoke;
-  padding-top: 3em;
+  padding: 3em;
 }
 .week {
   display:grid;
@@ -359,7 +359,7 @@ nav li a {
 }
 
 nav a:hover {
-  color: #F3DFC1;
+  color: white;
   background-color: #368F8B;
   list-style: none;
 }
