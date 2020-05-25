@@ -3,8 +3,8 @@
 
 body {
   margin: 0 auto;
-  max-width: 960px;
-
+  max-width: 1080px;
+  float: none;
 }
 
 main {
@@ -13,19 +13,9 @@ main {
 
 }
 
-.herotitle {
-  color: white;
-  font-family: "Arial Black", Gadget, sans-serif;
-  text-align: center;
-  font-size: 1.25em;
-}
-
-h3,
-h6 {
+h3 {
   color: #114B5F;
-
   font-family: "Arial Black", Gadget, sans-serif;
-
   text-align: center;
   font-size: 1.25em;
 }
@@ -34,17 +24,15 @@ h1 {
   color: #F3DFC1;
   font-family: "Arial Black", Gadget, sans-serif;
   background-color: #114B5F;
-  text-align: left;
-  font-size: 2em;
+  font-size: auto;
 }
 
 h2 {
   color: #160F29;
   font-family: "Arial Black", Gadget, sans-serif;
-
-
   text-align: center;
-  font-size: 3.25em;
+  padding: 1em;
+  font-size: 33px;
 }
 
 h4 {
@@ -67,102 +55,111 @@ p {
   text-align: left;
 }
 
-h2 {
-  line-height: 1.5em;
-  font-size: 28px;
-}
-
 .forcast {
   background-color: whitesmoke;
-  padding: 3em;
+ padding-top: 1em;
+ padding-left: 7em;
+ padding-right: 7em;
+ padding-bottom: 2em;
 }
+
 .week {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
+
 .border {
   border-width: 5px;
-border-style: solid;
+  border-style: solid;
 
 }
+
 .one {
-grid-column: 1/2;
-grid-row: 1/2;
-text-align: center;
-border-width: 5px;
-border-bottom-style: solid;
-padding-bottom: 1.5em;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+  border-width: 5px;
+  border-bottom-style: solid;
+  padding-bottom: 1.5em;
 
 }
+
 .two {
   grid-column: 2/3;
   grid-row: 1/2;
   text-align: center;
   border-width: 5px;
-border-bottom-style: solid;
-padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  padding-bottom: 1.5em;
 
 }
+
 .three {
   grid-column: 3/4;
   grid-row: 1/2;
   text-align: center;
   border-width: 5px;
-border-bottom-style: solid;
-padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  padding-bottom: 1.5em;
 }
+
 .four {
   grid-column: 4/5;
   grid-row: 1/2;
   text-align: center;
   border-width: 5px;
-border-bottom-style: solid;
-padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  padding-bottom: 1.5em;
 
 }
+
 .five {
   grid-column: 5/6;
   grid-row: 1/2;
   text-align: center;
   border-width: 5px;
-border-bottom-style: solid;
-padding-bottom: 1.5em;
+  border-bottom-style: solid;
+  padding-bottom: 1.5em;
 }
+
 .one1 {
   grid-column: 1/2;
   grid-row: 2/3;
   margin: auto;
   text-align: center;
 }
-  
-  .two2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    margin: auto;
-    text-align: center;
-    
-  }
-  .three3 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    margin: auto;
-    text-align: center;
-    
 
-  }
-  .four4 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-    margin: auto;
-    text-align: center;
-  }
-  .five5 {
-    grid-column: 5/6;
-    grid-row: 2/3;
-    margin: auto;
-    text-align: center;
-   
-  }
+.two2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: auto;
+  text-align: center;
+
+}
+
+.three3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: auto;
+  text-align: center;
+
+
+}
+
+.four4 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  margin: auto;
+  text-align: center;
+}
+
+.five5 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  margin: auto;
+  text-align: center;
+
+}
 
 .article {
   background-color: whitesmoke;
@@ -178,7 +175,6 @@ padding-bottom: 1.5em;
   padding-top: 1em;
   color: #DDBEA8;
   font-family: "Courier New", Courier, monospace;
-
 }
 
 .articleC {
@@ -196,15 +192,13 @@ padding-bottom: 1.5em;
   padding-left: .5em;
 }
 
-.one {
+.bigarticle {
   background-color: whitesmoke;
 }
 
 .contact {
   background-color: #ddbea8;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 1em;
+  padding: 1em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -223,6 +217,7 @@ padding-bottom: 1.5em;
   grid-row: 1/2;
   padding-left: 1em;
   text-align: center;
+  color: #246A73;
 }
 
 .phone {
@@ -230,26 +225,25 @@ padding-bottom: 1.5em;
   grid-row: 2/3;
   padding-left: 1em;
   text-align: center;
+  color: #246A73;
 }
 
 .img4 {
   grid-column: 2/3;
   grid-row: 3/4;
   margin: auto;
-
 }
 
 div {
-  max-width: 960px;
+  max-width: 1080px;
 }
 
 .logo-img {
-
-  max-width: 100%;
-  max-height: 100%;
-  background-color: #114B5F;
-  padding-top: 1em;
-
+  grid-column: 2/3;
+  grid-row: 1/3;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  padding-right: .5em;
 }
 
 .hero-img {
@@ -262,7 +256,6 @@ div {
   text-align: center;
   color: white;
   padding-bottom: 1.5em;
-
 }
 
 .top-left {
@@ -273,7 +266,6 @@ div {
   padding: .75em;
   background-color: #368F8B;
   display: grid;
-  
 }
 
 .herotitle {
@@ -283,7 +275,6 @@ div {
   font-size: 1.25em;
   grid-row: 1/1;
   grid-column: 1/3;
-
 }
 
 .weather-left {
@@ -303,42 +294,37 @@ div {
 
 }
 
-.title1 {
-  color: white;
-  font-family: "Arial Black", Gadget, sans-serif;
+header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   background-color: #114B5F;
-  text-align: center;
-  font-size: 2.75em;
-  padding-top: 1em;
+}
 
+.title1 {
+  grid-column: 3/6;
+  grid-row: 1/2;
+  text-align: left;
+  padding-top: .5em;
 }
 
 .subtitle {
-  color: #F3DFC1;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  color: #DCDCDC;
   font-family: "Arial Black", Gadget, sans-serif;
-  background-color: #114B5F;
-  text-align: center;
-  font-size: 1em;
-  padding-left: 5em;
-  font-size: 1em;
-  padding-bottom: 1em;
-
-}
-
-header {
-  display: grid;
-  grid-template-columns: 110px auto;
-  padding-top: 1em;
-  padding-left: 1em;
-  background-color: #114B5F;
+  text-align: left;
+  font-size: auto;
+  padding-left: .25em;
 }
 
 nav ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); */
+  grid-template-columns: repeat(6, 1fr);
   margin: 0;
-  font-size: 1em;
+  font-size: .85em;
   padding: 0;
   overflow: hidden;
   background-color: #ddbea8;
@@ -348,12 +334,15 @@ nav li a {
   display: block;
   color: #160F29;
   text-align: center;
-  padding: 0.75rem;
+  padding: 0;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.45em;
   font-family: "Courier New", Courier, monospace;
   list-style: none;
   background-color: #ddbea8;
+  margin: auto;
+  padding-top: .75em;
+  padding-bottom: .75em;
 }
 
 nav a:hover {
@@ -370,26 +359,30 @@ footer {
   background-color: #114B5F;
 
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
+@media only screen and (max-width: 800px) {
+.article {
+  background-color: whitesmoke;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-
-.spec-font {
-  font-family: "Courier New", Courier, monospace;
+.articleC {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-bottom: 1em;
 }
 
-.center1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+.articleImg {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  max-width: 477px;
+  max-height: 346px;
 }
-
+}
 @media only screen and (max-width: 600px) {
   .article {
     background-color: whitesmoke;
@@ -467,9 +460,8 @@ footer {
 
   /* Style the navigation menu */
   .topnav {
-    overflow: hidden;
-    background-color: #333;
     position: relative;
+
   }
 
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -482,13 +474,13 @@ footer {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
   }
 
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: #246A73;
+    background: #DDBEA8;
     display: block;
     position: absolute;
     right: 0;
@@ -496,21 +488,19 @@ footer {
   }
 
   /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #F3DFC1;
+  .topnav:hover {
+    background-color: #368F8B;
     color: black;
   }
 
-  /* Style the active link (or home/logo) */
+  /* menu */
   .active {
-    background-color: #DDBEA8;
-    color: black;
+    background-color: #F3DFC1;
   }
 }
 
-.link {
+.footerlink {
   color: #DDBEA8;
-
 }
 
 @media only screen and (max-width: 600px) {
