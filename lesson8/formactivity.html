@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Form Activity</title>
+    <style>
+        label, input{
+            display: block;
+        }
+        label>input{
+            display: inline;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+    <nav>
+
+    </nav>
+
+    <main>
+        <h1>Form Activity</h1>
+
+        <form action="directed page URL " method="get">
+<!-- action = where the data goes -->
+<!-- method = how the data moves to that location -->
+<label for="fName">Full Name: <input type="text" name="fName" id="fName" max="4"></label>
+
+<span>Are you in danger?</span>
+<label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label>
+<label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>
+<label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label>
+
+<label for="stormDate">Storm Date</label>
+<input type="date" name="stormDate" id="stormDate">
+<label for="phone">Phone Number</label>
+<input type="tel" name="phone" id="phone" placeholder="(555)555-5555">
+<label for="comment">Comments or additional information</label>
+<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+
+<input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>

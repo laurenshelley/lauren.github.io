@@ -1,0 +1,33 @@
+thead {
+    font-size: x-large;
+    background-color: #7fb9c2;
+    color: black;
+}
+tbody {
+    text-align: center;
+}
+tbody td:hover {
+    background-color: #628ca6;
+  }
+tfoot {
+    background-color: #7fb9c2;
+    font-size: small;
+    text-align: center;
+}
+.heading {
+    color: white;
+    background-color:#628ca6;
+}
+table {
+    font-family: Ubuntu, sans-serif;
+    background-color: lightgray;
+}
+tr:nth-child(2n+2) {background-color: #e7f0ed}
+tr:nth-child(2n+3) {background-color: #e7ffed}
+
+td {
+    padding: .4em;
+}
+th {
+    padding: .4em;
+}
