@@ -1,6 +1,29 @@
 label, input{
     display: block;
+    text-align: center;
 }
 label>input{
     display: inline;
+}
+main {
+    background-color: whitesmoke;
+    padding: 3em;
+}
+p {
+    text-align: center;
+}
+.danger {
+    padding-bottom: 1em;
+}
+textarea {
+    box-align: center;
+
+}
+.stormInfo {
+    border: solid;
+    border-radius: 2em;
+}
+h1 {
+    color: #DDBEA8;
+    text-align: center;
 }

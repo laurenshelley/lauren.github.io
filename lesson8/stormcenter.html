@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-    <title>Storm Report</title>
+    <title>Sky Peekers | Storm Center</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles2.css" />
@@ -21,14 +21,18 @@
     <main>
         <h1>Storm Report</h1>
         <form action="https://laurenshelley.github.io/lesson8/thankyou.html" method="get">
-<label for="fName">Full Name: <input type="text" name="fName" id="fName"></label>
+<label for="fName">First Name: <input type="text" name="fName" id="fName"></label>
+<label for="lName">Last Name: <input type="text" name="lName" id="lName"></label>
 <label for="email">Email: <input type="email" name="email" id="email"></label>
 <label for="zip">ZIP Code: <input type="number" name="zip" id="zip"></label>
 <label for="phone">Phone Number: <input type="tel" name="phone" id="phone" placeholder="(555)555-5555"></label>
-<span>Are you in danger?</span>
+<div class="stormInfo">
+<div class="danger">
+<p>Are you in Danger?</p>
 <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label>
 <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>
 <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label>
+</div>
 <label for="stormDate">Storm Date:<input type="date" name="stormDate" id="stormDate"></label>
 <label>Storm Type:   
             <input list="weather">  
@@ -69,7 +73,8 @@
 </label>
 <label for="comment">Comments or additional information</label>
 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-<input type="submit" value="Submit">
+</div>
+<input type="submit" value="Submit" class="submit">
         </form>
     </main>
     <footer>
