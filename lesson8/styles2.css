@@ -10,6 +10,65 @@ label>input{
 input {
     padding: .35em;
 }
+
+
+header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #114B5F;
+  }
+  
+  .title1 {
+    grid-column: 3/6;
+    grid-row: 1/2;
+    text-align: left;
+    padding-top: .5em;
+  }
+  
+  .subtitle {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    color: #DCDCDC;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: left;
+    font-size: auto;
+    padding-left: .25em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(6em, 1fr)); */
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0;
+    font-size: .85em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ddbea8;
+  }
+  
+  nav li a {
+    display: block;
+    color: #160F29;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.45em;
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+    background-color: #ddbea8;
+    margin: auto;
+    padding-top: .75em;
+    padding-bottom: .75em;
+  }
+  
+  nav a:hover {
+    color: white;
+    background-color: #368F8B;
+    list-style: none;
+  }
+  
 main {
     background-color: whitesmoke;
     padding: 3em;
