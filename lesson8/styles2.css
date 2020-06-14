@@ -1,29 +1,127 @@
 label, input{
-    display: block;
-    text-align: center;
+    /* display: block; */
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: .3em;
 }
-label>input{
+/* label>input{
     display: inline;
+    
+} */
+label {
+    text-align: center;
 }
 main {
     background-color: whitesmoke;
     padding: 3em;
 }
+body {
+    margin: 0 auto;
+    max-width: 1080px;
+    /* float: none; */
+  }
+  
 p {
     text-align: center;
-}
-.danger {
-    padding-bottom: 1em;
-}
-textarea {
-    box-align: center;
-
-}
-.stormInfo {
-    border: solid;
-    border-radius: 2em;
+    font-family: "Lucida Console", Monaco, monospace;
 }
 h1 {
     color: #DDBEA8;
     text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 45px;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.name {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.nametextbox {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.storm {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.stormtextbox {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.danger {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.dangerrange {
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+.comment {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+.submit {
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+/* 
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    max-width: 500px;
+} */
+/* .stormInfo {
+    border: solid;
+    border-radius: 2em;
+    padding-bottom: 1em;
+}
+
+#btn_s{
+    width: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #368F8B;
+    box-shadow: none;
+    padding: .25em;
+    border-style: none;
+    font-size: small;
+    
+} */
+input[type=range] {
+    background: transparent;
+   }
+   
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+  
+  input[type=range]:focus {
+    outline: none; 
+  } 
+  input[type=range] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    max-width: 400px;
+    width: 35%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    height: 8px;
+    cursor: pointer;
+    background: #246A73;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 25px;
+    width: 10px;
+    border-radius: 5px;
+    background:black;
+    margin-top: -9px;
+  }

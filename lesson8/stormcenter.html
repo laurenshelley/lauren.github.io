@@ -17,25 +17,35 @@
     <nav>
 
     </nav>
-
+    <h1>Storm Center Report</h1>
     <main>
-        <h1>Storm Report</h1>
+
+       <div class="grid">
+
         <form action="https://laurenshelley.github.io/lesson8/thankyou.html" method="get">
-<label for="fName">First Name: <input type="text" name="fName" id="fName"></label>
-<label for="lName">Last Name: <input type="text" name="lName" id="lName"></label>
-<label for="email">Email: <input type="email" name="email" id="email"></label>
-<label for="zip">ZIP Code: <input type="number" name="zip" id="zip"></label>
-<label for="phone">Phone Number: <input type="tel" name="phone" id="phone" placeholder="(555)555-5555"></label>
-<div class="stormInfo">
-<div class="danger">
-<p>Are you in Danger?</p>
-<label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label>
-<label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>
-<label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label>
+<div class="name">
+<label for="fName">First Name:</label>
+<label for="lName">Last Name:</label>
+<label for="email">Email:</label>
+<label for="zip">ZIP Code:</label>
+<label for="phone">Phone Number:</label>
 </div>
-<label for="stormDate">Storm Date:<input type="date" name="stormDate" id="stormDate"></label>
-<label>Storm Type:   
-            <input list="weather">  
+<div class="nametextbox">
+<input type="text" name="fName" id="fName">
+<input type="text" name="lName" id="lName">
+<input type="email" name="email" id="email">
+<input type="number" name="zip" id="zip">
+<input type="tel" name="phone" id="phone" placeholder="(555)555-5555">
+</div>
+
+<div class="storm">
+<label for="stormDate">Storm Date:</label>
+<label>Storm Type:</label>
+<label>Strom Region:</label>
+</div>
+<div class="stormtextbox">
+        <input type="date" name="stormDate" id="stormDate">
+        <input list="weather">  
             <datalist id="weather">  
                 <option value="Flash Flood">  
                 <option value="Hail">  
@@ -43,8 +53,22 @@
                 <option value="Thunderstorm">  
                 <option value="Tornado">  
             </datalist>
-</label>
+            <select name="region" id="region">
+                <option value="select region" selected disabled hidden>**Select Region**</option>
+                <option value="preston">Preston</option>
+                <option value="soda springs">Soda Springs</option>
+                <option value="fish haven">Fish Haven</option>
+            </select>
+</div>
 
+<div class="danger">
+    <p><b>Are you in Danger?</b></p>
+    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label>
+    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>
+    <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label>
+</div>
+
+<div class="dangerrange">
 <label>Danger Range:   
     0<input type="range" id="range" name="range" list="tickmarks"
     min="0" max="10" value="0" step="1">10
@@ -62,20 +86,18 @@
         <option value="100"></option>
       </datalist>
 </label>
-<label>Strom Region:
+</div>
 
-<select name="region" id="region">
-  <option value="select region" selected disabled hidden>*Select Region*</option>
-  <option value="preston">Preston</option>
-  <option value="soda springs">Soda Springs</option>
-  <option value="fish haven">Fish Haven</option>
-</select>
-</label>
+<div class="comment">
 <label for="comment">Comments or additional information</label>
 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 </div>
-<input type="submit" value="Submit" class="submit">
-        </form>
+
+<div class="submit">
+<input type="submit" value="SUBMIT" id="btn_s">
+</div>
+    </form>
+        </div>
     </main>
     <footer>
     </footer>
