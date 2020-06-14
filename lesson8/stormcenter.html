@@ -18,17 +18,19 @@
 
     </nav>
     <h1>Storm Center Report</h1>
+    <h3>Have a storm to report? Fill out the form below and hit submit to help us keep our weather up to date!</h3>
     <main>
 
-       <div class="grid">
+     
 
         <form action="https://laurenshelley.github.io/lesson8/thankyou.html" method="get">
+            <div class="grid">
 <div class="name">
-<label for="fName">First Name:</label>
-<label for="lName">Last Name:</label>
-<label for="email">Email:</label>
-<label for="zip">ZIP Code:</label>
-<label for="phone">Phone Number:</label>
+<label for="fName">First Name:</label><br>
+<label for="lName">Last Name:</label><br>
+<label for="email">Email:</label><br>
+<label for="zip">ZIP Code:</label><br>
+<label for="phone">Phone Number:</label><br>
 </div>
 <div class="nametextbox">
 <input type="text" name="fName" id="fName">
@@ -39,13 +41,13 @@
 </div>
 
 <div class="storm">
-<label for="stormDate">Storm Date:</label>
-<label>Storm Type:</label>
-<label>Strom Region:</label>
+<label for="stormDate">Storm Date:</label><br>
+<label>Storm Type:</label><br>
+<label>Strom Region:</label><br>
 </div>
 <div class="stormtextbox">
         <input type="date" name="stormDate" id="stormDate">
-        <input list="weather">  
+        <input list="weather" name="weather">  
             <datalist id="weather">  
                 <option value="Flash Flood">  
                 <option value="Hail">  
@@ -63,9 +65,9 @@
 
 <div class="danger">
     <p><b>Are you in Danger?</b></p>
-    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label>
-    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label>
-    <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label>
+    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
+    <label for="no"><input type="radio" name="danger" id="no" value="no"> No</label><br>
+    <label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label><br>
 </div>
 
 <div class="dangerrange">
@@ -86,18 +88,19 @@
         <option value="100"></option>
       </datalist>
 </label>
-</div>
 
+</div>
 <div class="comment">
-<label for="comment">Comments or additional information</label>
-<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+<label for="comment"><b>Comments or Additional Information:</b></label>
+<textarea name="comment" id="comment" cols="50" rows="10"></textarea>
 </div>
 
 <div class="submit">
-<input type="submit" value="SUBMIT" id="btn_s">
+<input type="submit" value="SUBMIT" id="btn_s" name="submit">
 </div>
+            </div>
     </form>
-        </div>
+       
     </main>
     <footer>
     </footer>
