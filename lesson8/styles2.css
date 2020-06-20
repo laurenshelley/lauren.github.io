@@ -19,8 +19,8 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: repeat(5, auto-fit);
-    grid-template-rows: repeat(2, auto-fit);
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, auto);
     background-color: #114B5F;
   }
   
@@ -37,7 +37,7 @@ header {
     color: #DCDCDC;
     font-family: "Arial Black", Gadget, sans-serif;
     text-align: left;
-    font-size: auto;
+ 
     padding-left: .25em;
     margin-bottom: auto;
   }
@@ -198,7 +198,12 @@ h4 {
 .submit {
     grid-column: 2/4;
     grid-row: 5/6;
+
 }
+.mediascreen {
+  display: none;
+}
+
 }
 textarea {
     display: block;
@@ -356,8 +361,8 @@ footer {
   }
   main {
     display: none
-  };
-  label, input{
+  }
+  label, input {
     display: block;
     color: black;
     font-family: "Lucida Console", Monaco, monospace;
@@ -366,21 +371,17 @@ footer {
   label>input{
     display: inline;
   }
-label {
+  label {
   padding-left: 3em;
-}
-
-
+  }
 }
 
 .footerlink {
   color: #DDBEA8;
 }
-@media only screen and (min-width: 800px) {
-  .mediascreen {
-    display: none;
-  }
-}
 .mediascreen {
   background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
 }
