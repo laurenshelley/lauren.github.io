@@ -230,6 +230,18 @@ textarea {
     font-size: small;
     cursor: pointer;
 }
+#btn_sa{
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  background-color: #368F8B;
+  box-shadow: none;
+  padding: .25em;
+  border-style: none;
+  font-size: small;
+  cursor: pointer;
+}
 input[type=range] {
     background: transparent;
    }
