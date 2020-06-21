@@ -7,9 +7,9 @@ label, input{
 label>input{
     display: inline;
 }
-input {
-    padding: .35em;
-}
+/* input {
+    padding: .5em;
+} */
 
 body {
   margin: 0 auto;
@@ -131,6 +131,9 @@ h4 {
   .topnav {
     display: none;
   }
+  input {
+    padding: .35em;
+}
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -328,13 +331,15 @@ footer {
   nav ul {
     display: block;
   }
-
+  input {
+    padding: .45em;
+}
   /* Style the navigation menu */
   .topnav {
     position: relative;
 
   }
-
+ 
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
@@ -386,14 +391,49 @@ footer {
   label {
   padding-left: 3em;
   }
+  .mediascreen {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    padding: .5em;
+  }
+  
+  .names {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+   
+    padding-top: 1em;
+  }
+.namebox {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.stormtypes {
+  grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: right;
+  
+}
+.stormtypesbox {
+  grid-column: 2/3;
+    grid-row: 2/3;
+}
+.commentsbox {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  text-align: center;
+    border: solid;
+    padding: 1em;
+    font-size: 20px;
+}
+#radio {
+  align-items: center;
+}
+
 }
 
 .footerlink {
   color: #DDBEA8;
-}
-.mediascreen {
-  background-color: whitesmoke;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
 }
