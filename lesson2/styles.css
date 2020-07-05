@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+@import url('normalize.css');
+
+h3 {
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: .5em;
+  background-color: #98c1d9;
+  text-align: center;
+
+}
+
+h1 {
+  color: #f4f1de;
+  font-family: "Arial Black", Gadget, sans-serif;
+  padding: 0.5em;
+  background-color: #293241;
+  text-align: center;
+}
+#content {
+  margin: 0 auto;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: black;
+  
+}
+
+main {
+  text-align: center;
+  background-color: white;
+  padding: 3em;
+  color: #f2e9e4;
+}
+
+footer {
+  text-align: center;
+  padding: 3em;
+  list-style: none;
+  background-color: #3d5a80;
+  align-items: center;
+}
+
+.home-grid {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat (3, auto);
+  grid-template-rows: repeat (1, auto);
+}
+.byui:hover {box-shadow: 0 0 50px #333;}
+.caferio:hover {box-shadow: 0 0 50px #333;}
+.toyota:hover {box-shadow: 0 0 50px #333;}
+.byui {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: solid;
+  border-radius: 1em;
+  border-color: whitesmoke;
+  background: whitesmoke;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.caferio {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: solid;
+  border-radius: 1em;
+  border-color: whitesmoke;
+  background: whitesmoke; 
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.toyota {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  border: solid;
+  border-radius: 1em;
+  background: whitesmoke;
+  border-color: whitesmoke;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  color: grey;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  padding: .10em;
+}
+
+p {
+  color: black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: "Arial Black", Gadget, sans-serif;
+  background-color: #3d5a80;
+  text-align: center;
+}
+
+#content {
+  margin: 0 auto;
+}
+div {
+  display: inline-block;
+}
+body {
+  max-width: 1060px;
+  margin: auto;
+}
+a:hover {
+  color: white;
+  background-color: grey;
+}
