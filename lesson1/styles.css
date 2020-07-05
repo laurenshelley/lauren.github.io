@@ -33,9 +33,10 @@ img {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  margin: 0;
+  margin: auto;
   color: black;
   background-color: #4a4e69;
+  max-width: 800px;
 }
  main {
      text-align: left;
