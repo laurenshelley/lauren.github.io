@@ -1,0 +1,148 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+body {
+  margin: 0 auto;
+  max-width: 1080px;
+  float: none;
+  background-color: #FBFBF2;
+}
+
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #E5E6E4;
+}
+
+h1 {
+  color: #F3DFC1;
+  font-family: "Arial Black", Gadget, sans-serif;
+  /* background-color: #114B5F; */
+  border: dotted;
+  border-radius: 1em;
+  padding: 1em;
+}
+h3 {
+    color: #FBFBF2;
+    margin: auto;
+    padding-bottom: 1.55em;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+ padding-top: 2em;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.top-left {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  margin: 0;
+  font-size: .8em;
+  padding: 0;
+  overflow: hidden;
+  background-color: #E5E6E4;
+}
+
+nav li a {
+  display: block;
+  color: #160F29;
+  text-align: center;
+  padding: auto;
+  text-decoration: none;
+  font-size: 1.45em;
+  font-family: "Courier New", Courier, monospace;
+  list-style: none;
+  background-color: #E5E6E4;
+  margin: auto;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #A6A2A2;
+  list-style: none;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 2em;
+  background-color: #114B5F;
+
+}
+@media only screen and (max-width: 700px) {
+
+  nav ul {
+    display: block;
+  }
+  /* Style the navigation menu */
+  .topnav {
+    position: relative;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+   
+  }
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #A6A2A2;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* Add a grey background color on mouse-over */
+  /* .topnav:hover {
+    background-color: #A6A2A2;
+    color: black;
+  } */
+  /* menu */
+  /* .active {
+    background-color: #FBFBF2;
+    color: #FBFBF2;
+  }
+  a {
+      color: #FBFBF2;
+  } */
+}
+
+.footerlink {
+  color: #DDBEA8;
+}
+
+@media only screen and (max-width: 700px) {
+ 
+  .fullpage {
+    display: none;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .topnav {
+    display: none;
+  }
+}
