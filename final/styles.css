@@ -72,7 +72,9 @@ img {
   height: 60%;
 	width: 60%;
 }
-
+button {
+  border-style: none;
+}
 .mySlides {
   margin: auto;
   max-height: 700px;
