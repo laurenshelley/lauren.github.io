@@ -49,42 +49,161 @@
   </div>
 
   <main>
-    <div class="container1">
-     
-        <img class="mySlides" src="https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2FMount_Timpanogos_Utah_Temple_-_A_House_of_Peace_Robert_A_Boyd_web_k9hxgi.jpg?v=1594161881914">
-        <img class="mySlides" src="https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2FProvo_City_Center_Temple_-_Fountain_of_Living_Water_Evan_Lurker_web_lkuguz.jpg?v=1594161882823">
-        <img class="mySlides" src="https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2Fpayson-utah-temple-1576-main.jpg?v=1594161883056">
-        <img class="mySlides" src="https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2Fdraper-utah-lds-temple-942143-high-res-print.jpg?v=1594161888225">
-  <script src="slide.js"></script>
-       <button class="w3-button-w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button-w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-        <div class="top-left">    
-          <H1>LOGO</H1>
-        <!-- <div class="herotitle">
-          <u>Weather Summary</u></div>
-        <div class="weather-left">Currently:<br>
-          High: <br>
-          Humidity: <br>
-          Wind Speed: <br>
-          Chance of Rain: <br></div>
-        <div class="weather-right">Sunny<br>
-          62°F<br>
-          43%<br>
-          15mph<br>
-          10%<br></div> -->
+    <form action="https://laurenshelley.github.io/lesson8/thanks.html" method="get">
+        <div class="grid">
+<div class="name">
+<label for="fName">First Name:</label><br>
+<label for="lName">Last Name:</label><br>
+<label for="email">Email:</label><br>
+<label for="zip">ZIP Code:</label><br>
+<label for="phone">Phone Number:</label><br>
+</div>
+<div class="nametextbox">
+<input type="text" name="fName" id="fName">
+<input type="text" name="lName" id="lName">
+<input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+<input type="number" name="zip" id="zip">
+<input type="tel" name="phone" id="phone" placeholder="(555)555-5555">
+</div>
 
-      </div>
-  </div>
-    <p>a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
-        a;lksdjfa;lksdfjas;lkdjf<br>
+<div class="storm">
+<label for="stormDate">Storm Date:</label><br>
+<label>Storm Type:</label><br>
+<label>Strom Region:</label><br>
+</div>
+<div class="stormtextbox">
+    <input type="date" name="stormDate" id="stormDate">
+    <input list="weather" name="weather">  
+        <datalist id="weather">  
+            <option value="Flash Flood">  
+            <option value="Hail">  
+            <option value="Hurricane">  
+            <option value="Thunderstorm">  
+            <option value="Tornado">  
+        </datalist>
+        <select name="region" id="region">
+            <option value="select region" selected disabled>**Select Region**</option>
+            <option value="preston">Preston</option>
+            <option value="soda springs">Soda Springs</option>
+            <option value="fish haven">Fish Haven</option>
+        </select>
+</div>
 
-    </p>
+<div class="danger">
+<p><b>Are you currently in danger because of the weather?</b></p>
+<label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
+<label for="no"><input type="radio" name="danger" id="no" value="no"> No</label><br>
+<label for="maybe"><input type="radio" name="danger" id="maybe" value="maybe"> Maybe</label><br>
+</div>
+
+<div class="dangerrange">
+<label>DANGER RANGE:   
+0<input type="range" id="range" name="range" list="tickmarks"
+min="0" max="10" value="0" step="1">10
+<datalist id="tickmarks">
+    <option value="0"></option>
+    <option value="10"></option>
+    <option value="20"></option>
+    <option value="30"></option>
+    <option value="40"></option>
+    <option value="50"></option>
+    <option value="60"></option>
+    <option value="70"></option>
+    <option value="80"></option>
+    <option value="90"></option>
+    <option value="100"></option>
+  </datalist>
+</label>
+
+</div>
+<div class="comment">
+<label for="comment"><b>Comments or Additional Information:</b></label>
+<textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+</div>
+
+<div class="submit">
+<input type="submit" value="SUBMIT" id="btn_s" name="submit">
+</div>
+        </div>
+</form>
+   
+</main>
+
+
+
+
+
+
+
+  <form action="https://laurenshelley.github.io/lesson8/thanks.html" method="get">
+      
+    <div class="mediascreen">
+      <div class="names">
+<label for="firstname">First Name:</label><br>
+<label for="lastname">Last Name:</label><br>
+<label for="themail">Email:</label><br>
+<label for="thezip">ZIP Code:</label><br>
+<label for="phones">Phone Number:</label><br>
+</div>
+<div class="namebox">
+<input type="text" name="firstname" id="firstname">
+<input type="text" name="lastname" id="lastname">
+<input type="email" name="themail" id="themail" placeholder="johndoe@gmail.com">
+<input type="number" name="thezip" id="thezip">
+<input type="tel" name="phones" id="phones" placeholder="(555)555-5555">
+</div>
+
+<div class="stormtypes">
+<label for="stormDates">Storm Date:</label><br>
+<label>Storm Type:  </label><br>
+<label>Strom Region:</label><br>
+</div>
+<div class="stormtypesbox">
+<input type="date" name="stormDates" id="stormDates">
+<input list="weathers" name="weathers">
+<datalist id="weathers">  
+<option value="Flash Flood">  
+<option value="Hail">  
+<option value="Hurricane">  
+<option value="Thunderstorm">  
+<option value="Tornado">  
+</datalist>
+<select name="region" id="regions">
+<option value="select region" selected disabled>**Select Region**</option>
+<option value="preston">Preston</option>
+<option value="soda springs">Soda Springs</option>
+<option value="fish haven">Fish Haven</option>
+</select>
+</div>
+
+<div class="commentsbox">
+<p><b>Are you currently in danger because of the weather?</b></p>
+<label for="yess"><input type="radio" name="danger" id="yess" value="yes"> Yes</label><br>
+<label for="noo"><input type="radio" name="danger" id="noo" value="no"> No</label><br>
+<label for="maybee"><input type="radio" name="danger" id="maybee" value="maybe"> Maybe</label><br>
+<label>DANGER RANGE:   
+0<input type="range" id="rangee" name="rangee" list="tickmarkss"
+min="0" max="10" value="0" step="1">10
+<datalist id="tickmarkss">
+  <option value="0"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+  <option value="40"></option>
+  <option value="50"></option>
+  <option value="60"></option>
+  <option value="70"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100"></option>
+</datalist>
+</label>
+<label for="comments"><b>Comments or Additional Information:</b></label>
+<textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+<input type="submit" value="SUBMIT" id="btn_sa" name="submit">
+</div>
+</div>
+</form>
   </main>
   <footer>
     &copy; 2020 | Lauren Shelley | <a class="footerlink" href="https://developer.mozilla.org/en-US/">MDN Documentation

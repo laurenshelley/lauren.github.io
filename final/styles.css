@@ -18,20 +18,25 @@ h1 {
   color: white;
   font-family: "Arial Black", Gadget, sans-serif;
   /* background-color: #114B5F; */
-  border: dotted;
+  border: double;
   border-radius: 1em;
+  border-width: .25em;
   padding: 1em;
+  text-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+  font-size: 25px;
 }
 h3 {
-    color: #FBFBF2;
+    color: #CFD2CD;
     margin: auto;
     padding-bottom: 1.55em;
+    background-color: #CFD2CD;
 }
 .container1 {
   position: relative;
   text-align: center;
   color: white;
- padding-top: 2em;
+  padding-top: 2em;
 }
 
 img {
@@ -39,13 +44,43 @@ img {
     max-height: 90%;
 }
 .top-left {
-position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.mySlides {
+  margin: auto;
+  max-height: 700px;
+}
+.w3-button-w3-display-left {
+color: white;
+font-size: 60px;
+border: none;
+background-color: transparent;
+position: absolute;
+top: 50%;
+left: 10%;
+transform: translate(-50%, -50%);
+}
 
+.w3-button-w3-display-right {
+  color: white;
+  font-size: 60px;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(-50%, -50%);
+}
+.w3-button-w3-display-left:hover {
+  color: #A6A2A2;
+}
+.w3-button-w3-display-right:hover {
+  color: #A6A2A2;
+}
 nav ul {
   list-style: none;
   display: grid;
@@ -72,20 +107,29 @@ nav li a {
   padding-bottom: 1.25em;
   padding-left: .5em;
   padding-right: .5em;
+  /* border-bottom: solid;
+  border-width: .5em; */
 }
 
 nav a:hover {
   color: white;
   background-color: #A6A2A2;
   list-style: none;
+  border-color: #A6A2A2;
 }
 
 footer {
   color: white;
   text-align: center;
   padding: 2em;
-  background-color: #114B5F;
-
+  background-color: #A6A2A2;
+}
+.footerlink {
+  color: #CFD2CD;
+}
+.footerlink:hover {
+  color: #847577;
+  background-color: whitesmoke;
 }
 @media only screen and (max-width: 700px) {
 
@@ -118,10 +162,6 @@ footer {
   }
 }
 
-.footerlink {
-  color: #DDBEA8;
-}
-
 @media only screen and (max-width: 700px) {
  
   .fullpage {
@@ -131,5 +171,20 @@ footer {
 @media only screen and (min-width: 700px) {
   .topnav {
     display: none;
+   
   }
+  nav li a {
+    border-bottom: solid;
+  border-width: .25em;
+  }
+}
+
+label, input{
+  display: block;
+  color: black;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px;
+}
+label>input{
+  display: inline;
 }
