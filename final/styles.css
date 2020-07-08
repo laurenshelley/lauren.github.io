@@ -15,7 +15,7 @@ main {
 }
 
 h1 {
-  color: #F3DFC1;
+  color: white;
   font-family: "Arial Black", Gadget, sans-serif;
   /* background-color: #114B5F; */
   border: dotted;
@@ -116,19 +116,6 @@ footer {
     right: 0;
     top: 0;
   }
-  /* Add a grey background color on mouse-over */
-  /* .topnav:hover {
-    background-color: #A6A2A2;
-    color: black;
-  } */
-  /* menu */
-  /* .active {
-    background-color: #FBFBF2;
-    color: #FBFBF2;
-  }
-  a {
-      color: #FBFBF2;
-  } */
 }
 
 .footerlink {
