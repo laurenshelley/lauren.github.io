@@ -13,6 +13,9 @@ main {
   padding-right: 1em;
   background-color: #E5E6E4;
 }
+.borderone {
+  border-bottom: solid;
+}
 
 h1 {
   color: white;
@@ -29,8 +32,10 @@ h1 {
 h3 {
     color: #CFD2CD;
     margin: auto;
-    padding-bottom: 1.55em;
+    padding-top: 1.55em;
     background-color: #CFD2CD;
+    border-bottom: solid;
+    border-color: black;
 }
 .container1 {
   position: relative;
@@ -63,6 +68,7 @@ position: absolute;
 top: 50%;
 left: 10%;
 transform: translate(-50%, -50%);
+border-color: transparent;
 }
 
 .w3-button-w3-display-right {
@@ -74,10 +80,12 @@ transform: translate(-50%, -50%);
   top: 50%;
   right: 3%;
   transform: translate(-50%, -50%);
+  border-color: transparent;
 }
 .w3-button-w3-display-left:hover {
   color: #A6A2A2;
 }
+f
 .w3-button-w3-display-right:hover {
   color: #A6A2A2;
 }
