@@ -68,7 +68,7 @@ img {
   background-attachment: fixed;
   background: inherit;
   background: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(10px);
+ 
   height: 60%;
 	width: 60%;
 }
@@ -98,7 +98,7 @@ border-color: transparent;
   background-color: transparent;
   position: absolute;
   top: 50%;
-  right: 3%;
+  right: 10%;
   transform: translate(-50%, -50%);
   border-color: transparent;
 }
