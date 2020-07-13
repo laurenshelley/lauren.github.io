@@ -5,14 +5,14 @@ body {
   margin: 0 auto;
   max-width: 1080px;
   float: none;
-  background-color: white;
+  background-color: whitesmoke;
   background-attachment: fixed;
 }
 
 main {
   padding-left: 1em;
   padding-right: 1em;
-  background-color: whitesmoke;
+  background-color: white;
 }
 .borderone {
   border-bottom: solid;
