@@ -216,24 +216,36 @@ label>input{
   display: inline;
 }
 .reservationhome:hover {
-  color: white;
+ 
   border-color: #847577;
+ 
+  color: white;
+  background-color: grey;
 }
 .reservationhome {
-  color: #847577;
-  margin-right: auto;
-  font-size: 30px;
+  color: white;
+  border-color: #847577;
+  background-color: #847577;
+  font-size: 25px;
   border: solid;
 padding-left: .25em;
 padding-right: .25em;
 padding-top: 1em;
 padding-bottom: 1em;
   text-decoration: none;
-  background-color: white;
+  
 }
 .reservehome {
 padding: 3em;
 margin-left: auto;
-text-align: right;
+text-align: center;
 background-color: whitesmoke;
+}
+.headphoto {
+  margin: auto;
+  width: 2000px;
+}
+.head {
+  position: relative;
+  text-align: center;
 }
