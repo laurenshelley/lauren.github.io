@@ -5,14 +5,16 @@ body {
   margin: 0 auto;
   max-width: 1080px;
   float: none;
-  background-color: whitesmoke;
+
   background-attachment: fixed;
+  background-image: url("https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2F106572469-white-roses-bouquet-white-flowers-background-top-view-holiday-background.jpg?v=1594682859704");
+
 }
 
 main {
   padding-left: 1em;
   padding-right: 1em;
-  background-color: white;
+  background-color: #E5E6E4;
 }
 .borderone {
   border-bottom: solid;
@@ -40,7 +42,7 @@ h3 {
   position: relative;
   text-align: center;
   color: white;
-  
+  padding-top: .5em;
 }
 
 img {
@@ -74,7 +76,10 @@ button {
 .mySlides {
   margin: auto;
   max-height: 700px;
-  padding-bottom: 1.25em;
+  /* padding-bottom: 1.25em; */
+  border: solid;
+  border-color: black;
+ 
 }
 .w3-button-w3-display-left {
 color: white;
@@ -199,8 +204,8 @@ footer {
    
   }
   nav li a {
-  border-bottom: solid;
-  border-width: .2em;
+  /* border-bottom: solid;
+  border-width: .2em; */
   background-color: #E5E6E4;
   
   }
@@ -237,9 +242,9 @@ padding-bottom: 1em;
 }
 .reservehome {
 padding: 3em;
-margin-left: auto;
 text-align: center;
 background-color: whitesmoke;
+
 }
 .headphoto {
   margin: auto;
