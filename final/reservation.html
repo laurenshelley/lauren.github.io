@@ -148,71 +148,78 @@
     <form action="https://laurenshelley.github.io/final/feedback.html" method="get">
         
       <div class="mediascreen">
-        <div class="names">
-<label for="firstname">First Name:</label><br>
-<label for="lastname">Last Name:</label><br>
-<label for="themail">Email:</label><br>
-<label for="thezip">ZIP Code:</label><br>
-<label for="phones">Phone Number:</label><br>
-</div>
-<div class="namebox">
-<input type="text" name="firstname" id="firstname">
-<input type="text" name="lastname" id="lastname">
-<input type="email" name="themail" id="themail" placeholder="johndoe@gmail.com">
-<input type="number" name="thezip" id="thezip">
-<input type="tel" name="phones" id="phones" placeholder="(555)555-5555">
-</div>
-
-<div class="stormtypes">
-<label for="stormDates">Storm Date:</label><br>
-<label>Storm Type:  </label><br>
-<label>Strom Region:</label><br>
-</div>
-<div class="stormtypesbox">
-<input type="date" name="stormDates" id="stormDates">
-<input list="weathers" name="weathers">
-<datalist id="weathers">  
-  <option value="Flash Flood">  
-  <option value="Hail">  
-  <option value="Hurricane">  
-  <option value="Thunderstorm">  
-  <option value="Tornado">  
-</datalist>
-<select name="region" id="regions">
-  <option value="select region" selected disabled>**Select Region**</option>
-  <option value="preston">Preston</option>
-  <option value="soda springs">Soda Springs</option>
-  <option value="fish haven">Fish Haven</option>
-</select>
-</div>
-
-<div class="commentsbox">
-<p><b>Do you plan to attend the temple during your stay?</b></p>
-<label for="yess"><input type="radio" name="danger" id="yess" value="yes"> Yes</label><br>
-<label for="noo"><input type="radio" name="danger" id="noo" value="no"> No</label><br>
-<label for="maybee"><input type="radio" name="danger" id="maybee" value="maybe"> Maybe</label><br>
-<label>DANGER RANGE:   
-0<input type="range" id="rangee" name="rangee" list="tickmarkss"
-min="0" max="10" value="0" step="1">10
-<datalist id="tickmarkss">
-    <option value="0"></option>
-    <option value="10"></option>
-    <option value="20"></option>
-    <option value="30"></option>
-    <option value="40"></option>
-    <option value="50"></option>
-    <option value="60"></option>
-    <option value="70"></option>
-    <option value="80"></option>
-    <option value="90"></option>
-    <option value="100"></option>
-  </datalist>
-</label>
-<label for="comments"><b>Comments or Additional Information:</b></label>
-<textarea name="comments" id="comments" cols="50" rows="10"></textarea>
-<input type="submit" value="SUBMIT" id="btn_sa" name="submit">
-</div>
-</div>
+                 
+<div class="namee">
+  <label for="fNamee">First<br> Name:</label><br>
+  <label for="lNamee">Last<br> Name:</label><br>
+  <label for="emaill">Email:</label><br>
+  <label for="phonee">Phone<br> Number:</label><br>
+  </div>
+  <div class="nametextboxx">
+  <input type="text" name="fNamee" id="fNamee">
+  <input type="text" name="lNamee" id="lNamee">
+  <input type="email" name="emaill" id="emaill" placeholder="johndoe@gmail.com">
+  <input type="tel" name="phonee" id="phonee" placeholder="(555)555-5555">
+  </div>
+  <div class="addresss">
+    <label for="streett">Street<br>Name:</label><br>
+    <label for="cityy">City<br>Name:</label><br>
+    <label for="statee">State:</label><br>
+    <label for="zipp">ZIP<br>Code:</label><br>
+  </div>
+  <div class="addressinputt">
+    <input type="text" name="streett" id="streett">
+    <input type="text" name="cityy" id="cityy">
+    <input type="text" name="statee" id="statee">
+    <input type="number" name="zipp" id="zipp">
+  </div>
+         <div class="stayinfoo">
+           <h4>{  Room Information Bellow  }</h4>
+         </div> 
+  <div class="checkinn">
+  <label for="check-inn">Check <br>in:</label><br>
+  <label for="check-outt">Check<br> out:</label><br>
+  </div>
+  <div class="checkinboxx">
+    <input type="date" name="check-inn" id="check-inn">
+    <input type="date" name="check-outt" id="check-outt">
+  </div>
+  <div class="roomss">
+    <label>Number of<br> Guests:</label><br>
+  
+  <label>Room<br> Types:</label><br>
+  <label>Number of<br> Rooms:</label><br>
+  
+  </div>
+  <div class="roomsboxx">
+    <input type="number" name="roomss" id="roomss">
+        <input list="roomm" name="roomm">  
+            <datalist id="roomm">  
+                <option value="Single">  
+                <option value="Single Queen">  
+                <option value="Single King">  
+                <option value="Double">  
+                <option value="Double Queen">  
+                  <option value="Double King">  
+            </datalist>
+            <input type="number" name="guestss" id="guestss">
+  </div>
+  
+  <div class="dangerr">
+    <p><b>Do you plan to attend the temple during your stay?</b></p>
+    <label for="yess"><input type="radio" name="dangerr" id="yess" value="yess"> Yes</label><br>
+    
+    <label for="maybee"><input type="radio" name="dangerr" id="maybee" value="maybee"> Maybe</label><br>
+    <label for="noo"><input type="radio" name="dangerr" id="noo" value="noo"> No</label><br>
+  </div>
+  <div class="commentss">
+  <label for="commentt"><b>Special Accommodations/Comments</b></label>
+  <textarea name="commentt" id="commentt" cols="50" rows="10"></textarea>
+  </div>
+  <div class="submitt">
+  <input type="submit" value="submit" id="btn_sa" name="submitt">
+  </div>
+  </div>
 </form>
 
 
