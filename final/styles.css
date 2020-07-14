@@ -249,6 +249,7 @@ label, input{
 }
 input {
   padding: .85em;
+  background-color: #FBFBF2;
 }
 label>input{
   display: inline;
@@ -293,7 +294,6 @@ background-color: whitesmoke;
 }
 form {
   background-color: white;
- 
   margin: auto;
   padding-top: 4em;
 }
@@ -404,4 +404,7 @@ border-bottom: double;
 .feedback {
   background-color: #E5E6E4;
   padding: .5em;
+}
+textarea {
+  background-color: #FBFBF2;
 }
