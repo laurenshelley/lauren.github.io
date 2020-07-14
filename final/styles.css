@@ -3,7 +3,7 @@
 
 body {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1120px;
   float: none;
   background-attachment: fixed;
   background-image: url("https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2F106572469-white-roses-bouquet-white-flowers-background-top-view-holiday-background.jpg?v=1594682859704");
@@ -13,7 +13,6 @@ body {
 filter: blur(3px);
 -webkit-filter: blur(3px);
 } */
-
 main {
   padding-left: 1em;
   padding-right: 1em;
@@ -25,14 +24,21 @@ main {
 }
 
 h1 {
-  color: white;
+  color: black;
   font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 20px;
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+ padding: 1em;
+ 
+  border: solid;
 }
 h2 {
   color: black;
   text-align: center;
-  background-color: whitesmoke;
+  background-color: white;
+  padding: 2em;
+ 
 }
 h3 {
     color: #CFD2CD;
@@ -41,6 +47,10 @@ h3 {
     background-color: #CFD2CD;
     border-bottom: solid;
     border-color: black;
+}
+h4 {
+  text-align: center;
+  font-size: 25px;
 }
 .container1 {
   position: relative;
@@ -147,7 +157,7 @@ nav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: auto;
+  
   text-decoration: none;
   font-size: 1.6em;
   font-family: "Courier New", Courier, monospace;
@@ -237,9 +247,14 @@ label, input{
   color: black;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 15px;
+  
+}
+input {
+  padding: .85em;
 }
 label>input{
   display: inline;
+ 
 }
 .reservationhome:hover {
  
@@ -277,4 +292,118 @@ background-color: whitesmoke;
 .head {
   position: relative;
   text-align: center;
+}
+form {
+  background-color: white;
+ 
+  margin: auto;
+  padding-top: 4em;
+}
+
+@media only screen and (min-width: 800px) {
+  .mediascreen {
+    display: none;
+  }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(6, auto);
+  padding: .5em;
+  margin: auto;
+}
+.name {
+grid-column: 1/2;
+grid-row: 1/2;
+text-align: right;
+padding-right: 1em;
+border-bottom: double;
+}
+.nametextbox {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border-bottom: double;
+}
+.address {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: right;
+ padding-right: 1em;
+ border-bottom: double;
+}
+.addressinput {
+  grid-column: 4/5;
+  grid-row: 1/2;
+padding-bottom: 4em;
+border-bottom: double;
+}
+.stayinfo {
+  grid-column: 1/5;
+  grid-row: 3/4;
+  border-top: double;
+  border-width: 100%;
+}
+.checkin {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  text-align: right;
+ padding-right: 1em;
+ padding-top: 2em;
+ /* border-top: double; */
+ border-bottom: double;
+}
+.checkinbox {
+  grid-column: 2/3;
+  grid-row: 4/5;
+padding-bottom: 4em;
+padding-top: 2em;
+/* border-top: double; */
+border-bottom: double;
+}
+.rooms {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  text-align: right;
+  padding-top: 2em;
+  padding-right: 1em;
+  /* border-top: double; */
+  border-bottom: double;
+}
+.roomsbox {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  padding-top: 2em;
+  /* border-top: double; */
+  border-bottom: double;
+  padding-bottom: 3em;
+}
+.danger {
+  grid-column: 1/5;
+  grid-row: 2/3;
+  text-align: center;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-top: 1em;
+
+ 
+}
+
+.comments {
+  grid-column: 1/5;
+  grid-row: 5/6;
+  text-align: center;
+  padding-top: 3em;
+  margin: auto;
+}
+.submit {
+  grid-column: 1/5;
+  grid-row: 6/7;
+  margin: auto;
+  padding-top: 2em;
+}
+}
+.feedback {
+  background-color: #E5E6E4;
+  padding: .5em;
 }
