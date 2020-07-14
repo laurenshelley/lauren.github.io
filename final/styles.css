@@ -29,16 +29,14 @@ h1 {
   font-size: 40px;
   text-align: center;
   background-color: white;
- padding: 1em;
- 
-  border: solid;
+  padding: 1em;
 }
 h2 {
   color: black;
   text-align: center;
   background-color: white;
   padding: 2em;
- 
+ border: solid;
 }
 h3 {
     color: #CFD2CD;
