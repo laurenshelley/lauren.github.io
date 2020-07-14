@@ -225,10 +225,10 @@ footer {
    
   }
   nav li a {
-  /* border-bottom: solid;
-  border-width: .2em; */
+  border-bottom: solid;
+  border-width: .2em;
   background-color: #E5E6E4;
-  
+  border-color: #E5E6E4;
   }
 }
 
