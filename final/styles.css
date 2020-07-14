@@ -5,16 +5,20 @@ body {
   margin: 0 auto;
   max-width: 1080px;
   float: none;
-
   background-attachment: fixed;
   background-image: url("https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2F106572469-white-roses-bouquet-white-flowers-background-top-view-holiday-background.jpg?v=1594682859704");
-
+  
 }
+/* html {
+filter: blur(3px);
+-webkit-filter: blur(3px);
+} */
 
 main {
   padding-left: 1em;
   padding-right: 1em;
   background-color: #E5E6E4;
+  
 }
 .borderone {
   border-bottom: solid;
@@ -58,11 +62,12 @@ img {
 
 .logo {
   border: solid;
+  border-color: black;
   border-radius: 4em;
-  border-width: .25em;
+  border-width: .3em;
   padding: 1em;
   text-shadow: 2px 2px black;
-  box-shadow: 2px 2px black;
+  /* box-shadow: 2px 2px black; */
   font-size: 25px;
   background-attachment: fixed;
   background: inherit;
@@ -77,8 +82,8 @@ button {
   margin: auto;
   max-height: 700px;
   /* padding-bottom: 1.25em; */
-  border: solid;
-  border-color: black;
+  /* border: solid;
+  border-color: black; */
  
 }
 .w3-button-w3-display-left {
