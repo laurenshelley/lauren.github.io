@@ -249,11 +249,28 @@ label, input{
 }
 input {
   padding: .85em;
-  background-color: #FBFBF2;
+  background-color: whitesmoke;
 }
 label>input{
   display: inline;
  
+}
+#btn_s {
+  width: 75px;
+  margin: auto;
+  color: white;
+  background-color: #847577;
+  box-shadow: none;
+  padding: .25em;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: .25em;
+  font-size: small;
+  cursor: pointer;
+}
+#btn_s:hover {
+  color: #847577;
+  background-color: white;
 }
 .reservationhome:hover {
  
@@ -406,5 +423,5 @@ border-bottom: double;
   padding: .5em;
 }
 textarea {
-  background-color: #FBFBF2;
+  background-color: whitesmoke;
 }
