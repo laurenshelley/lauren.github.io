@@ -62,11 +62,26 @@ img {
 
 .logo {
   border: solid;
-  border-color: black;
+  border-color: white;
   border-radius: 4em;
   border-width: .3em;
   padding: 1em;
   text-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+  font-size: 25px;
+  background-attachment: fixed;
+  background: inherit;
+  background: rgba(255, 255, 255, 0.5);
+  height: 60%;
+	width: 60%;
+}
+.logotwo {
+  border: solid;
+  border-color: white;
+  border-radius: 4em;
+  border-width: .3em;
+  padding: 1em;
+  text-shadow: 2px 2px white;
   /* box-shadow: 2px 2px black; */
   font-size: 25px;
   background-attachment: fixed;
@@ -255,6 +270,9 @@ background-color: whitesmoke;
 .headphoto {
   margin: auto;
   width: 2000px;
+  border: solid;
+  border-width: .75em;
+  border-color: white;
 }
 .head {
   position: relative;
