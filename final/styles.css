@@ -96,7 +96,7 @@ img {
 	width: 60%;
 }
 .logotwo {
-  border: solid;
+  border: double;
   border-color: white;
   border-radius: 4em;
   border-width: .3em;
