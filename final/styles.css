@@ -155,11 +155,15 @@ border-radius: .25em;
 .w3-button-w3-display-left:hover {
   color: white;
   cursor: pointer;
+  border: transparent;
+
+
 }
 
 .w3-button-w3-display-right:hover {
   color: white;
   cursor: pointer;
+  border: transparent;
 }
 nav ul {
   list-style: none;
