@@ -285,7 +285,18 @@ label>input{
   color: white;
   background-color: grey;
 }
+.reservehome {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(1, auto);
+padding: 3em;
+text-align: right;
+background-color: #FBFBF2;
+
+}
 .reservationhome {
+  grid-row: 1/2;
+  grid-column: 2/3;
   color: white;
   border-color: #847577;
   background-color: #847577;
@@ -296,13 +307,12 @@ padding-right: .25em;
 padding-top: 1em;
 padding-bottom: 1em;
   text-decoration: none;
-  
+  margin: auto;
 }
-.reservehome {
-padding: 3em;
-text-align: center;
-background-color: whitesmoke;
-
+.homeinfo {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin: auto;
 }
 .headphoto {
   margin: auto;
