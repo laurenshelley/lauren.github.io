@@ -724,7 +724,7 @@ border-left: solid;
       padding: 1em;
       padding-top: 1.75em;
       padding-left: 2em;
-      background-color: #FBFBF2;
+      background-color: white;
       width: 70%;
       margin: auto;
     border: solid;
@@ -735,7 +735,7 @@ border-left: solid;
     .homeactivityphototwo {
     padding-left: 2em;
     padding-top: .75em;
-    background-color: #FBFBF2;
+    background-color: white;
     padding-bottom: 2em;
     width: 73%;
     margin: auto;
