@@ -113,6 +113,9 @@ img {
   height: 60%;
 	width: 60%;
 }
+.logohomes {
+  border: none;
+}
 .logotwo {
   border: double;
   border-color: white;
