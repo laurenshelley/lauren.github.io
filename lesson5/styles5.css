@@ -445,7 +445,7 @@ footer {
     padding-top: .5em;
   }
 
-  .address {
+  .addressone {
     grid-column: 1/3;
     grid-row: 1/2;
     text-align: center;
