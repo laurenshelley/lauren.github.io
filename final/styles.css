@@ -53,15 +53,15 @@ h3 {
 
 h4 {
   text-align: center;
-  font-size: 23px;
+  font-size: 20px;
   background-color: #847577;
   padding: 1.75em;
- border: solid;
+ /* border: solid; */
  color: white;
- border-color: white;
+ /* border-color: white;
 border-width: 5px;
 border-right: none;
-border-left: none;
+border-left: none; */
 }
 
 .title {
@@ -130,9 +130,7 @@ img {
   height: 60%;
 	width: 60%;
 }
-/* button {
-  border-style: none;
-} */
+
 .mySlides {
   margin: auto;
   max-height: 700px;
@@ -141,8 +139,8 @@ img {
   border-width: .75em;
  border-left-color: black;
  border-right-color: black;
-  /* border: white;
-  border: solid; */
+ border-top: none;
+ border-bottom: none;
 }
 .w3-button-w3-display-left {
 color: black;
@@ -351,7 +349,7 @@ border-color: white;
   grid-row: 1/2;
   grid-column: 1/2;
   font-size: 15px;
-  text-align: left;
+ 
   padding: .75em;
   border: solid;
 border-color: black;
