@@ -456,7 +456,9 @@ form {
   .mediascreen {
     display: none;
   }
-  
+  .optionss {
+    display: none;
+  }
   #btn_s {
     width: 75px;
     margin: auto;
