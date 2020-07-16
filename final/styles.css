@@ -710,7 +710,11 @@ border-left: solid;
   img {
     border: solid;
   }
- 
+  .titlethree {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+  }
   @media only screen and (max-width: 900px) {
     .homepage {
       display: none;
@@ -742,10 +746,7 @@ border-left: solid;
     border-color: #A6A2A2;
     border-top: none;
     }
-    .titlethree {
-      text-align: center;
-      font-size: 20px;
-    }
+    
     .contacttwo {
       display: grid;
       grid-template-columns: repeat(2, auto);
