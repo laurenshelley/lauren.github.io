@@ -694,7 +694,7 @@ border-left: solid;
   .phone {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding-left: 2.25em;
+    padding-left: 2.5em;
     text-align: center;
     color: white;
     margin: auto;
