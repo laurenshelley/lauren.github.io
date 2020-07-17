@@ -7,14 +7,16 @@ body {
   float: none;
   background-attachment: fixed;
   background-image: url("https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2F106572469-white-roses-bouquet-white-flowers-background-top-view-holiday-background.jpg?v=1594682859704");
-  
+
 }
+
 main {
   padding-left: 2em;
   padding-right: 2em;
   background-color: #E5E6E4;
-  
+
 }
+
 .borderone {
   border-bottom: solid;
 }
@@ -29,6 +31,7 @@ h1 {
   border: solid;
   border-radius: 1.5em;
 }
+
 h2 {
   color: black;
   text-align: center;
@@ -37,13 +40,14 @@ h2 {
   border: solid;
   border-width: .2em;
 }
+
 h3 {
-    color: #CFD2CD;
-    margin: auto;
-    padding-top: 1.55em;
-    background-color: #CFD2CD;
-    border-bottom: solid;
-    border-color: black;
+  color: #CFD2CD;
+  margin: auto;
+  padding-top: 1.55em;
+  background-color: #CFD2CD;
+  border-bottom: solid;
+  border-color: black;
 }
 
 
@@ -52,9 +56,9 @@ h4 {
   font-size: 20px;
   background-color: #847577;
   padding: 1.75em;
- /* border: solid; */
- color: white;
- /* border-color: white;
+  /* border: solid; */
+  color: white;
+  /* border-color: white;
 border-width: 5px;
 border-right: none;
 border-left: none; */
@@ -66,15 +70,17 @@ border-left: none; */
   text-align: center;
 
 }
+
 p {
   text-align: left;
   font-size: 16px;
   color: black;
   padding-top: 1em;
   padding-left: 2em;
- line-height: 1.75em;
- padding-left: .5em;
+  line-height: 1.75em;
+  padding-left: .5em;
 }
+
 .container1 {
   position: relative;
   text-align: center;
@@ -84,9 +90,10 @@ p {
 }
 
 img {
-    max-width: 90%;
-    max-height: 90%;
+  max-width: 90%;
+  max-height: 90%;
 }
+
 .top-left {
   position: absolute;
   top: 50%;
@@ -107,11 +114,13 @@ img {
   background: inherit;
   background: rgba(255, 255, 255, 0.7);
   height: 60%;
-	width: 60%;
+  width: 60%;
 }
+
 .logohomes {
   border: none;
 }
+
 .logotwo {
   border: double;
   border-color: white;
@@ -124,7 +133,7 @@ img {
   background: inherit;
   background: rgba(255, 255, 255, 0.5);
   height: 60%;
-	width: 60%;
+  width: 60%;
 }
 
 .mySlides {
@@ -133,44 +142,47 @@ img {
   border: double;
   border-color: #FBFBF2;
   border-width: .75em;
- border-left-color: black;
- border-right-color: black;
- border-top: none;
- border-bottom: none;
+  border-left-color: black;
+  border-right-color: black;
+  border-top: none;
+  border-bottom: none;
 }
+
 .mySlides1 {
   margin: auto;
   max-height: 700px;
   border: double;
   border-color: #FBFBF2;
   border-width: .75em;
- border-left-color: black;
- border-right-color: black;
- border-top: none;
- border-bottom: none;
+  border-left-color: black;
+  border-right-color: black;
+  border-top: none;
+  border-bottom: none;
 
 }
+
 .w3-button-w3-display-left {
-color: black;
-font-size: 60px;
-border: transparent;
-background-color: rgba(255, 255, 255, 0.6);
-position: absolute;
-top: 50%;
-left: 10%;
-transform: translate(-50%, -50%);
-border-color: transparent;
-width: 8%;
-height: 91%;
-border-radius: .25em;
+  color: black;
+  font-size: 60px;
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  border-color: transparent;
+  width: 8%;
+  height: 91%;
+  border-radius: .25em;
 
 }
+
 .w3-button-w3-display-right {
   color: black;
   font-size: 60px;
-  border:transparent;
+  border: transparent;
   /* border: transparent; */
-  background-color:  rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   position: absolute;
   top: 50%;
   right: 2%;
@@ -180,6 +192,7 @@ border-radius: .25em;
   height: 91%;
   border-radius: .25em;
 }
+
 .w3-button-w3-display-left:hover {
   color: white;
   cursor: pointer;
@@ -193,6 +206,7 @@ border-radius: .25em;
   cursor: pointer;
   border: transparent;
 }
+
 nav ul {
   list-style: none;
   display: grid;
@@ -236,34 +250,41 @@ footer {
   background-color: #A6A2A2;
   font-size: 18px;
 }
+
 .footerlink {
   color: #847577;
 }
+
 .footerlink:hover {
   color: #847577;
   background-color: whitesmoke;
 }
+
 @media only screen and (max-width: 700px) {
 
   nav ul {
     display: block;
   }
+
   /* Style the navigation menu */
   .topnav {
     position: relative;
   }
+
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: none;
   }
+
   /* Style navigation menu links */
   .topnav a {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-   background-color: #E5E6E4;
+    background-color: #E5E6E4;
   }
+
   /* Style the hamburger menu */
   .topnav a.icon {
     background: #A6A2A2;
@@ -272,38 +293,44 @@ footer {
     right: 0;
     top: 0;
   }
+
   .fullpage {
     display: none;
   }
 
 }
+
 @media only screen and (min-width: 700px) {
   .topnav {
     display: none;
-   
+
   }
+
   nav li a {
-  border-bottom: solid;
-  border-width: .2em;
-  background-color: #E5E6E4;
-  border-color: #E5E6E4;
+    border-bottom: solid;
+    border-width: .2em;
+    background-color: #E5E6E4;
+    border-color: #E5E6E4;
   }
 }
 
-label, input{
+label,
+input {
   display: block;
   color: black;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 15px;
-  
+
 }
+
 input {
   padding: .85em;
   background-color: whitesmoke;
 }
-label>input{
+
+label>input {
   display: inline;
- 
+
 }
 
 .reservationhome:hover {
@@ -317,9 +344,10 @@ label>input{
 }
 
 .reservehome {
-padding: .5em;
+  padding: .5em;
 
 }
+
 .reservationhome {
   color: white;
   padding-left: .25em;
@@ -335,64 +363,70 @@ padding: .5em;
   border-radius: .5em;
   line-height: 1.75em;
 }
+
 .homepage {
-padding: 2em;
-background-color: white;
-display: grid;
-grid-template-columns: repeat(2, auto);
-grid-template-rows: repeat(2, auto);
+  padding: 2em;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
 }
+
 .hometemplesphoto {
-grid-row: 1/2;
-grid-column: 2/3;
-padding: 1em;
-padding-top: 1.75em;
-padding-left: 4em;
-background-color: white;
-border-top-right-radius: 3em;
-border: solid;
-border-color: white;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding: 1em;
+  padding-top: 1.75em;
+  padding-left: 4em;
+  background-color: white;
+  border-top-right-radius: 3em;
+  border: solid;
+  border-color: white;
 }
+
 .hometemplesinfo {
   grid-row: 1/2;
   grid-column: 1/2;
   font-size: 15px;
- 
+
   padding: .75em;
   border: solid;
-border-color: black;
-border-right: none;
-border-bottom: none;
-border-left: none;
-background-color: #A6A2A2;
-padding-left: 2em;
-border-width: 5px;
-border-bottom: solid;
-border-top: none;
+  border-color: black;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  background-color: #A6A2A2;
+  padding-left: 2em;
+  border-width: 5px;
+  border-bottom: solid;
+  border-top: none;
 }
+
 .homeactivityphoto {
   grid-row: 2/3;
   grid-column: 1/2;
-padding-left: 2em;
-padding-top: 2em;
-background-color: white;
-padding-bottom: 2em;
-border-bottom-left-radius: 3em;
-border: solid;
-border-color: white;
+  padding-left: 2em;
+  padding-top: 2em;
+  background-color: white;
+  padding-bottom: 2em;
+  border-bottom-left-radius: 3em;
+  border: solid;
+  border-color: white;
 }
+
 .homeactivityinfo {
   grid-row: 2/3;
   grid-column: 2/3;
   border: solid;
-border-color: black;
-border: none;
-padding: 2em;
-background-color: #A6A2A2;
-padding-left: 4em;
-border-width: 5px;
-border-top: solid;
+  border-color: black;
+  border: none;
+  padding: 2em;
+  background-color: #A6A2A2;
+  padding-left: 4em;
+  border-width: 5px;
+  border-top: solid;
 }
+
 .headphoto {
   margin: auto;
   width: 2000px;
@@ -400,17 +434,20 @@ border-top: solid;
   border-width: .75em;
   border-color: white;
 }
+
 .head {
   position: relative;
   text-align: center;
 }
+
 form {
   background-color: white;
   margin: auto;
   border: solid;
   border-color: #847577;
- 
+
 }
+
 .options {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -418,6 +455,7 @@ form {
   border: double;
   border-width: 1em;
 }
+
 .venue {
   grid-row: 1/2;
   grid-column: 1/2;
@@ -425,25 +463,30 @@ form {
   font-size: 18px;
   padding-left: 6em;
 }
+
 .menu {
   grid-row: 1/2;
   grid-column: 2/3;
   padding: 4em;
   font-size: 18px;
 }
+
 .optionss {
   display: grid;
   grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(2, auto);
   border: double;
   border-width: 1em;
-}.venuee {
+}
+
+.venuee {
   grid-row: 1/2;
   grid-column: 1/2;
   font-size: 18px;
   text-align: center;
   margin: auto;
 }
+
 .menuu {
   grid-row: 2/3;
   grid-column: 1/2;
@@ -452,13 +495,12 @@ form {
   text-align: center;
   margin: auto;
 }
+
 @media only screen and (min-width: 800px) {
   .mediascreen {
     display: none;
   }
-  .optionss {
-    display: none;
-  }
+
   #btn_s {
     width: 75px;
     margin: auto;
@@ -472,182 +514,206 @@ form {
     font-size: small;
     cursor: pointer;
   }
+
   #btn_s:hover {
     color: #847577;
     background-color: white;
   }
-  
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(6, auto);
-  padding: 3em;
-  margin: auto;
-  padding-top: 2em;
-}
-.name {
-grid-column: 1/2;
-grid-row: 1/2;
-text-align: right;
-padding-right: 1em;
-border-bottom: double;
-padding-top: 4em;
-}
-.nametextbox {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  border-bottom: double;
-  padding-top: 4em;
-}
-.address {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  text-align: right;
- padding-right: 1em;
- border-bottom: double;
- padding-top: 4em;
-}
-.addressinput {
-  grid-column: 4/5;
-  grid-row: 1/2;
-padding-bottom: 4em;
-border-bottom: double;
-padding-top: 4em;
-}
-.rooms {
-  grid-column: 1/2;
-  grid-row: 4/5;
-  text-align: right;
- padding-right: 1em;
- padding-top: 4em;
- border-top: double;
- /* border-bottom: double; */
-}
-.roomsbox {
-  grid-column: 2/3;
-  grid-row: 4/5;
-padding-bottom: 4em;
-padding-top: 4em;
-border-top: double;
-/* border-bottom: double; */
-}
-.checkin {
-  grid-column: 3/4;
-  grid-row: 4/5;
-  text-align: right;
-  padding-top: 6em;
-  padding-right: 1em;
-  border-top: double;
-  /* border-bottom: double; */
-}
-.checkinbox {
-  grid-column: 4/5;
-  grid-row: 4/5;
-  padding-top: 6em;
-  border-top: double;
-  /* border-bottom: double; */
-  padding-bottom: 3em;
-}
-.danger {
-  grid-column: 1/5;
-  grid-row: 2/3;
-  text-align: center;
-  margin: auto;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    padding: 3em;
+    margin: auto;
+    padding-top: 2em;
+  }
+
+  .name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    padding-right: 1em;
+    border-bottom: double;
+    padding-top: 4em;
+  }
+
+  .nametextbox {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-bottom: double;
+    padding-top: 4em;
+  }
+
+  .address {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: right;
+    padding-right: 1em;
+    border-bottom: double;
+    padding-top: 4em;
+  }
+
+  .addressinput {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    padding-bottom: 4em;
+    border-bottom: double;
+    padding-top: 4em;
+  }
+
+  .rooms {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 4em;
+    border-top: double;
+    /* border-bottom: double; */
+  }
+
+  .roomsbox {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    border-top: double;
+    /* border-bottom: double; */
+  }
+
+  .checkin {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: right;
+    padding-top: 6em;
+    padding-right: 1em;
+    border-top: double;
+    /* border-bottom: double; */
+  }
+
+  .checkinbox {
+    grid-column: 4/5;
+    grid-row: 4/5;
+    padding-top: 6em;
+    border-top: double;
+    /* border-bottom: double; */
+    padding-bottom: 3em;
+  }
+
+  .danger {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+  }
+
+  .comments {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    text-align: center;
+    padding-top: 3em;
+    margin: auto;
+  }
+
+  .submit {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    margin: auto;
+    padding-top: 2em;
+  }
 }
 
-.comments {
-  grid-column: 1/5;
-  grid-row: 5/6;
-  text-align: center;
-  padding-top: 3em;
-  margin: auto;
-}
-.submit {
-  grid-column: 1/5;
-  grid-row: 6/7;
-  margin: auto;
-  padding-top: 2em;
-}
-}
 .feedback {
   background-color: #E5E6E4;
   padding: .5em;
 }
+
 textarea {
   background-color: whitesmoke;
 }
+
 @media only screen and (max-width: 800px) {
   .grid {
     display: none;
   }
-.mediascreen {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(8, auto);
-  padding: .75em;
-  margin: auto;
-  padding-bottom: 2em;
-}
-.namee {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  text-align: right;
-  padding-right: 1em;
-  padding-top: 2em;
+
+  .mediascreen {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(8, auto);
+    padding: .75em;
+    margin: auto;
+    padding-bottom: 2em;
   }
+
+  .namee {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    padding-right: 1em;
+    padding-top: 2em;
+  }
+
   .nametextboxx {
     grid-column: 2/3;
     grid-row: 1/2;
     padding-top: 2em;
     padding-right: 3em;
   }
+
   .addresss {
     grid-column: 1/2;
     grid-row: 2/3;
     text-align: right;
-   padding-right: 1em;
-   border-bottom: double;
+    padding-right: 1em;
+    border-bottom: double;
   }
+
   .addressinputt {
     grid-column: 2/3;
     grid-row: 2/3;
-  padding-bottom: 4em;
-  border-bottom: double;
+    padding-bottom: 4em;
+    border-bottom: double;
   }
+
   .checkinn {
     grid-column: 1/2;
     grid-row: 5/6;
     text-align: right;
-   padding-right: 1em;
-   padding-top: 3em;
-  border-top: double;
+    padding-right: 1em;
+    padding-top: 3em;
+    border-top: double;
   }
+
   .checkinboxx {
     grid-column: 2/3;
     grid-row: 5/6;
-  padding-top: 3em;
-  border-top: double;
+    padding-top: 3em;
+    border-top: double;
   }
+
   .roomss {
     grid-column: 1/2;
     grid-row: 6/7;
     text-align: right;
-   
+
     padding-right: 1em;
     /* border-top: double; */
     border-bottom: double;
   }
+
   .roomsboxx {
     grid-column: 2/3;
     grid-row: 6/7;
-   
+
     /* border-top: double; */
     border-bottom: double;
     padding-bottom: 3em;
   }
+
   .dangerr {
     grid-column: 1/3;
     grid-row: 3/4;
@@ -658,7 +724,7 @@ textarea {
     padding-bottom: 2em;
     padding-top: 1em;
   }
-  
+
   .commentss {
     grid-column: 1/3;
     grid-row: 7/8;
@@ -666,130 +732,148 @@ textarea {
     padding-top: 3em;
     margin: auto;
   }
+
   .submitt {
     grid-column: 1/3;
     grid-row: 8/9;
     margin: auto;
     padding-top: 2em;
   }
-  }
-  .feedbackk {
-    background-color: #E5E6E4;
-    padding: .5em;
-  }
-  textarea {
-    background-color: whitesmoke;
-  }
-  #btn_sa {
-    width: 75px;
-    margin: auto;
-    color: white;
-    background-color: #847577;
-    box-shadow: none;
-    padding: .25em;
-    border-style: solid;
-    border-radius: 1em;
-    border-width: .25em;
-    font-size: small;
-    cursor: pointer;
-  
-  }
-  #btn_sa:hover {
-    color: #847577;
-    background-color: white;
-  }
-  .titletwo {
-    text-align: center;
-    font-size: 20px;
-  }
-  .contact {
-    background-color: #847577;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-  }
-  
-  .contactimg {
-    grid-column: 1/2;
-    grid-row: 2/4;
-    padding: 2em;
-    margin: auto;
+}
+
+.feedbackk {
+  background-color: #E5E6E4;
+  padding: .5em;
+}
+
+textarea {
+  background-color: whitesmoke;
+}
+
+#btn_sa {
+  width: 75px;
+  margin: auto;
+  color: white;
+  background-color: #847577;
+  box-shadow: none;
+  padding: .25em;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: .25em;
+  font-size: small;
+  cursor: pointer;
+
+}
+
+#btn_sa:hover {
+  color: #847577;
+  background-color: white;
+}
+
+.titletwo {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact {
+  background-color: #847577;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+}
+
+.contactimg {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  padding: 2em;
+  margin: auto;
   width: 50%;
   border: none;
 
+}
+
+.headquaters {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-size: 25px;
+  color: white;
+  padding-left: 2em;
+  border-bottom: solid;
+
+
+}
+
+.addressone {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  /* padding-left: 1em; */
+  text-align: center;
+  margin: auto;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-left: solid;
+}
+
+.phone {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-left: 2.5em;
+  text-align: center;
+  color: white;
+  margin: auto;
+  border: none;
+  font-size: 18px;
+  border-left: solid;
+}
+
+.img4 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  margin: auto;
+  padding: .75em;
+
+}
+
+img {
+  border: solid;
+}
+
+.titlethree {
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+  .homepage {
+    display: none;
   }
-  .headquaters {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    font-size: 25px;
-    color: white;
+.galleryone {
+  display: none;
+}
+  .options {
+    display: none;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .hometemplesphototwo {
+    padding: 1em;
+    padding-top: 1.75em;
     padding-left: 2em;
-    border-bottom: solid;
- 
-
-  }
-  .addressone {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    /* padding-left: 1em; */
-    text-align: center;
+    background-color: white;
+    width: 70%;
     margin: auto;
-    color: white;
-    border:none;
-    font-size: 18px;
-border-left: solid;
-  }
-  
-  .phone {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    padding-left: 2.5em;
-    text-align: center;
-    color: white;
-    margin: auto;
-    border:none;
-    font-size: 18px;
-    border-left: solid;
-  }
-  
-  .img4 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-   margin: auto;
-   padding: .75em;
-
-  }
-  img {
-    border: solid;
-  }
-  .titlethree {
-    text-align: center;
-    font-size: 20px;
-    text-decoration: underline;
-  }
-  @media only screen and (max-width: 900px) {
-    .homepage {
-      display: none;
-    }
-    .options {
-      display: none;
-    }
-    .contact {
-      display: none;
-    }
-    .hometemplesphototwo {
-      padding: 1em;
-      padding-top: 1.75em;
-      padding-left: 2em;
-      background-color: white;
-      width: 70%;
-      margin: auto;
     border: solid;
     border-color: #A6A2A2;
-   
+
     border-width: 3px;
-    }
-    .homeactivityphototwo {
+  }
+
+  .homeactivityphototwo {
     padding-left: 2em;
     padding-top: .75em;
     background-color: white;
@@ -800,155 +884,463 @@ border-left: solid;
     border: solid;
     border-color: #A6A2A2;
     border-top: none;
-    }
-    
-    .contacttwo {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      grid-template-rows: repeat(3, auto);
-      background-color: #847577;
-    }
-    .contactimgtwo {
-      grid-column: 1/2;
-      grid-row: 1/4;
-      padding: 2em;
-      margin: auto;
-      width: 85%;
-      border: none;
-    
-    }
-    .addresstwo {
-      grid-column: 2/3;
-      grid-row: 1/2;
-      text-align: left;
-      padding-right: 1em;
-      padding-top: 4em;
-      font-size: 10px;
-      border-top: none;
-      border-bottom: solid;
-    }
-    .phonetwo {
-      grid-column: 2/3;
-      grid-row: 2/3;
-      text-align: left;
-      padding-right: 1em;
-      font-size: 10px;
-      border-top: none;
-      border-bottom: solid;
-    }
-    .img4two {
-      grid-column: 2/3;
-      grid-row: 3/4;
-     margin: auto;
-     padding: .75em;
-    }
-  }
-  @media only screen and (min-width: 900px) {
-    .homepagetwo {
-      display: none;
-    }
-    .contacttwo {
-      display: none;
-    }
-
-  }
-  .services {
-    padding: 2em;
-
-  }
-  .service {
-background-color: white;
-padding: .75em;
-padding-left: 1.28em;
-padding-right: 1.25em;
-font-size: 30px;
-color: black;
-text-decoration: none;
-border-bottom: solid;
-border-width: .35em;
-border-color: white;
-
   }
 
-  .reception {
-    background-color: #CFD2CD;
-    padding: .75em;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
-    border-bottom: solid;
-    border-width: .35em;
-    border-color: #CFD2CD;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  .missionary {
+  .contacttwo {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     background-color: #847577;
-    padding: .75em;
-    font-size: 30px;
-    color: black;
-    text-decoration: none;
-    border-bottom: solid;
-border-width: .35em;
-border-color: #847577;
-  }
-  .servicehome {
-    background-color: white;
-    padding: 3em;
-  font-size: 20px;
-  }
-  .receptionhome {
-    background-color: #CFD2CD;
-    padding: .75em;
-    font-size: 20px;
-  }
-  .receptioncontent {
-    background-color: white;
-    padding: .5em;
   }
 
-  .missionaryhome {
-      background-color: #847577;
-      padding: 2em;
-      font-size: 20px;
+  .contactimgtwo {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    padding: 2em;
+    margin: auto;
+    width: 85%;
+    border: none;
+
   }
-  .missionarycontent {
-    background-color: white;
+
+  .addresstwo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
+    padding-right: 1em;
+    padding-top: 4em;
+    font-size: 10px;
+    border-top: none;
+    border-bottom: solid;
+  }
+
+  .phonetwo {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+    padding-right: 1em;
+    font-size: 10px;
+    border-top: none;
+    border-bottom: solid;
+  }
+
+  .img4two {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: auto;
+    padding: .75em;
+  }
+
+  .galleryfour {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     padding: 2em;
   }
-  .service:hover {
-    border-bottom: solid;
-    border-color: black;
-    border-width: .25em;
-  }
-  .reception:hover {
-    border-bottom: solid;
-    border-color: black;
-    border-width: .25em;
 
-  }
-  .missionary:hover {
-    border-bottom: solid;
-    border-color: black;
-    border-width: .25em;
-  }
-  .offer {
-    text-align: center;
-    font-size: 20px;
-  }
-  .offer1 {
-    text-align: center;
-    font-size: 20px;
-    background-color: whitesmoke;
+  .imgseven {
+    grid-row: 1/2;
+    grid-column: 1/2;
     padding: 1em;
-  }
-  .specialized {
-    font-size: 18px;
-  
-  }
-  .specializedtwo {
-    font-size: 18px;
-    text-align: left;
-  
+    margin: auto;
   }
 
+  .imgeight {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .imgnine {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .imgten {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .imgeleven {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .imgtwelve {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    padding: 1em;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+  .homepagetwo {
+    display: none;
+  }
+
+  .contacttwo {
+    display: none;
+  }
+
+  .optionss {
+    display: none;
+  }
+
+  .galleryfour {
+    display: none;
+  }
+  .galleryone {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    padding: 2em;
+  }
+  
+  .imgone {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .imgtwo {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .imgthree {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .imgfour {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .imgfive {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding: 1em;
+    margin: auto;
+  }
+  
+  .imgsix {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    padding: 1em;
+    margin: auto;
+  }
+}
+
+.services {
+  padding: 2em;
+
+}
+
+.service {
+  background-color: white;
+  padding: .75em;
+  padding-left: 1.28em;
+  padding-right: 1.25em;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  border-bottom: solid;
+  border-width: .35em;
+  border-color: white;
+
+}
+
+.reception {
+  background-color: #CFD2CD;
+  padding: .75em;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  border-bottom: solid;
+  border-width: .35em;
+  border-color: #CFD2CD;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.missionary {
+  background-color: #847577;
+  padding: .75em;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+  border-bottom: solid;
+  border-width: .35em;
+  border-color: #847577;
+}
+
+.servicehome {
+  background-color: white;
+  padding: 3em;
+  font-size: 20px;
+}
+
+.receptionhome {
+  background-color: #CFD2CD;
+  padding: .75em;
+  font-size: 20px;
+}
+
+.receptioncontent {
+  background-color: white;
+  padding: .5em;
+}
+
+.missionaryhome {
+  background-color: #847577;
+  padding: 2em;
+  font-size: 20px;
+}
+
+.missionarycontent {
+  background-color: white;
+  padding: 2em;
+}
+
+.service:hover {
+  border-bottom: solid;
+  border-color: black;
+  border-width: .25em;
+}
+
+.reception:hover {
+  border-bottom: solid;
+  border-color: black;
+  border-width: .25em;
+
+}
+
+.missionary:hover {
+  border-bottom: solid;
+  border-color: black;
+  border-width: .25em;
+}
+
+.offer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.offer1 {
+  text-align: center;
+  font-size: 20px;
+  background-color: whitesmoke;
+  padding: 1em;
+}
+
+.specialized {
+  font-size: 18px;
+
+}
+
+.specializedtwo {
+  font-size: 18px;
+  text-align: left;
+
+}
+
+.gallerythree {
+  display: none;
+}
+
+/* .galleryone {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  padding: 2em;
+}
+
+.imgone {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  padding: 1em;
+  margin: auto;
+}
+
+.imgtwo {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding: 1em;
+  margin: auto;
+}
+
+.imgthree {
+  grid-row: 1/2;
+  grid-column: 3/4;
+  padding: 1em;
+  margin: auto;
+}
+
+.imgfour {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 1em;
+  margin: auto;
+}
+
+.imgfive {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 1em;
+  margin: auto;
+}
+
+.imgsix {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  padding: 1em;
+  margin: auto;
+} */
+
+@media only screen and (max-width: 600px) {
+  .galleryfour {
+    display: none;
+  }
+
+  .galleryone {
+    display: none;
+  }
+
+  .gallerythree {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(6, auto);
+    padding: 2em;
+  }
+
+  .img-a {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img-b {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img-c {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img-d {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img-e {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+
+  .img-f {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    padding: 1em;
+    margin: auto;
+  }
+}
+
+.imgone:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgtwo:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgthree:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgfour:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgfive:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgsix:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgseven:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgeight:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgnine:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgten:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgeleven:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.imgtwelve:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-a:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-b:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-c:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-d:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-e:hover {
+  box-shadow: 0 0 50px #333;
+}
+
+.img-f:hover {
+  box-shadow: 0 0 50px #333;
+}
