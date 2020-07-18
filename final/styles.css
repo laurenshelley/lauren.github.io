@@ -1479,3 +1479,14 @@ grids {
   margin: auto;
   padding: 2em;
 }
+.cards {
+  /* margin: auto;
+  border: solid; */
+  padding: 2em;
+  background-color: white;
+}
+section {
+  border: solid;
+  background-color: white;
+  border-color: grey;
+}

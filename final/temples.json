@@ -9,7 +9,7 @@
             "ordinancesched": "Closed for Renovation- Open house and rededication date not yet announced",
             "sesssched": "Closed for Renovation- Open house and rededication date not yet announced",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2Fwashington_dc_mormon_temple.jpg?v=1595112675335"
         },
         { 
             "name": "Paris France",
@@ -21,7 +21,7 @@
             "ordinancesched": "Phase 1: Open for restricted living sealings only",
             "sesssched": "Phase 1: Open for restricted living sealings only",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "Adelaide Australia Temple",
@@ -33,7 +33,7 @@
             "ordinancesched": "Phase 1: Open for restricted living sealings only",
             "sesssched": "Phase 1: Open for restricted living sealings only",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "Cedar City",
@@ -45,7 +45,7 @@
             "ordinancesched": "Phase 1: Open for restricted living sealings only",
             "sesssched": "Phase 1: Open for restricted living sealings only",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "Nauvoo Illinois",
@@ -57,7 +57,7 @@
             "ordinancesched": "Phase 1: Open for restricted living sealings only",
             "sesssched": "Phase 1: Open for restricted living sealings only",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         },
         {
             "name": "Manaus Brazil",
@@ -69,7 +69,7 @@
             "ordinancesched": "Phase 1: Open for restricted living sealings only",
             "sesssched": "Phase 1: Open for restricted living sealings only",
             "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
-            "templephoto": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+            "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
         }
 
     ]
