@@ -792,8 +792,8 @@ textarea {
 .contact {
   background-color: #847577;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .contactimg {
@@ -801,7 +801,7 @@ textarea {
   grid-row: 2/4;
   padding: 2em;
   margin: auto;
-  width: 50%;
+  width: 80%;
   border: none;
 
 }
@@ -816,7 +816,7 @@ textarea {
 }
 
 .addressone {
-  /* grid-column: 2/3; */
+  grid-column: 2/3;
   grid-row: 1/2;
 
   text-align: center;
