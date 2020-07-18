@@ -1,14 +1,14 @@
 {
     "locations": [{
-            "name": "Washington D.C.",
-            "address": "9900 Stoneybrook Drive Kensington, Maryland  20895-3199",
-            "phone": " (+1) 301-588-0650",
-            "email": "dctemple@gamil.com",
-            "services": "No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
-            "history": "Announced: 15 November 1968, Groundbreaking: 7 December 1968 by Hugh B. Brown, Deticated: 19–22 November 1974 by Spencer W. Kimball",
-            "ordinancesched": "Closed for Renovation- Open house and rededication date not yet announced",
-            "sesssched": "Closed for Renovation- Open house and rededication date not yet announced",
-            "templeclosure": "COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
+            "name": "Washington D.C.", 
+            "address": "ADDRESS: 9900 Stoneybrook Drive Kensington, Maryland  20895-3199",
+            "phone": " PHONE: (+1) 301-588-0650",
+            "email": "EMAIL: dctemple@gamil.com",
+            "services": "SERVICES: No clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "history": "HISTORY :Announced: 15 November 1968, Groundbreaking: 7 December 1968 by Hugh B. Brown, Deticated: 19–22 November 1974 by Spencer W. Kimball",
+            "ordinancesched": "ORDINANCES: Closed for Renovation- Open house and rededication date not yet announced",
+            "sesssched": "SESSIONS: Closed for Renovation- Open house and rededication date not yet announced",
+            "templeclosure": "TEMPLE CLOSURE: COVID-19 NOTICE: Due to the spread of Coronoa Virus temples are taking precautions to prevent the spreading of COVID-19. Check Schedules for details in each temple.",
             "imageurl": "https://cdn.glitch.com/f1a2bb93-eb7a-43c0-b49a-f26d02668bed%2Fwashington_dc_mormon_temple.jpg?v=1595112675335"
         },
         { 
