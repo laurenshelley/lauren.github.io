@@ -62,9 +62,11 @@ border-width: 5px;
 border-right: none;
 border-left: none; */
 }
+
 h5 {
   text-align: center;
 }
+
 h6 {
   text-align: center;
   font-size: 20px;
@@ -72,6 +74,7 @@ h6 {
   color: white;
   padding: 1.25em;
 }
+
 .title {
   font-size: 20px;
   text-decoration: underline;
@@ -861,9 +864,11 @@ img {
   .homepage {
     display: none;
   }
-.galleryone {
-  display: none;
-}
+
+  .galleryone {
+    display: none;
+  }
+
   .options {
     display: none;
   }
@@ -1014,6 +1019,7 @@ img {
   .galleryfour {
     display: none;
   }
+
   .galleryone {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1023,45 +1029,45 @@ img {
     border-bottom: double;
     background-color: whitesmoke;
   }
-  
+
   .imgone {
     grid-row: 1/2;
     grid-column: 1/2;
     padding: 1em;
     margin: auto;
-   
+
   }
-  
+
   .imgtwo {
     grid-row: 1/2;
     grid-column: 2/3;
     padding: 1em;
     margin: auto;
-   
+
   }
-  
+
   .imgthree {
     grid-row: 1/2;
     grid-column: 3/4;
     padding: 1em;
     margin: auto;
- 
+
   }
-  
+
   .imgfour {
     grid-row: 2/3;
     grid-column: 1/2;
     padding: 1em;
     margin: auto;
   }
-  
+
   .imgfive {
     grid-row: 2/3;
     grid-column: 2/3;
     padding: 1em;
     margin: auto;
   }
-  
+
   .imgsix {
     grid-row: 2/3;
     grid-column: 3/4;
@@ -1261,7 +1267,7 @@ img {
   .img-a {
     grid-row: 1/2;
     grid-column: 1/2;
-   padding-left: 1.5em;
+    padding-left: 1.5em;
   }
 
   .img-b {
@@ -1376,55 +1382,67 @@ img {
 }
 
 .img-c:hover {
-  box-shadow: 0 0 50px #333;background-color: #CFD2CD;
+  box-shadow: 0 0 50px #333;
+  background-color: #CFD2CD;
 }
 
 .img-d:hover {
-  box-shadow: 0 0 50px #333;background-color: #CFD2CD;
+  box-shadow: 0 0 50px #333;
+  background-color: #CFD2CD;
 }
 
 .img-e:hover {
-  box-shadow: 0 0 50px #333;background-color: #CFD2CD;
+  box-shadow: 0 0 50px #333;
+  background-color: #CFD2CD;
 }
 
 .img-f:hover {
-  box-shadow: 0 0 50px #333;background-color: #CFD2CD;
-}
-@media only screen and (max-width: 750px) {
-.services { 
-display: grid;
-grid-template-columns: repeat(1, auto);
-grid-template-rows: repeat(3, auto);
-}
-.service {
-grid-row: 1/2;
-grid-column: 1/2;
-text-align: center;
-padding: .25em;
-}
-.reception {
-  grid-row: 2/3;
-  grid-column: 1/2;
-  text-align: center;
-  padding: .25em;
-}
-.missionary {
-  grid-row: 3/4;
-  grid-column: 1/2;
-  text-align: center;
-  padding: .25em;
-}
-.service:hover {
-  border: solid;
-}
-.reception:hover {
-  border: solid;
-}
-.missionary:hover {
-  border: solid;
+  box-shadow: 0 0 50px #333;
+  background-color: #CFD2CD;
 }
 
+@media only screen and (max-width: 750px) {
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
+  }
+
+  .service {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    text-align: center;
+    padding: .25em;
+  }
+
+  .reception {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    text-align: center;
+    padding: .25em;
+  }
+
+  .missionary {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+    padding: .25em;
+  }
+
+  .service:hover {
+    border: solid;
+  }
+
+  .reception:hover {
+    border: solid;
+  }
+
+  .missionary:hover {
+    border: solid;
+  }
+
 }
+
 .contactimgone {
   display: block;
   margin-left: auto;
@@ -1432,25 +1450,30 @@ padding: .25em;
   width: 80%;
   border: none;
 }
+
 grids {
   padding: 3em;
-    margin: auto;
-    padding-top: 2em;
+  margin: auto;
+  padding-top: 2em;
 }
+
 .contacthome {
   background-color: whitesmoke;
 }
+
 .contacthello {
   text-align: center;
   font-size: 20px;
   padding: 1em;
   background-color: white;
 }
+
 .commentshome {
   text-align: center;
   padding-top: 3em;
   margin: auto;
 }
+
 .submits {
   margin: auto;
   padding: 2em;
