@@ -67,9 +67,9 @@ fetch(requestURL)
 function getWeather(cityName)
 {
 
-    const weatherURL = 'api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=34b224737efc91d0ae263275f450aecb'
-
-    fetch(weatherURL)
+    const WeatherURL = 'api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=34b224737efc91d0ae263275f450aecb';
+    console.log(WeatherURL);
+    fetch(WeatherURL)
     .then (function (response) {
         if(response.ok) {
             return response.json()
@@ -81,5 +81,5 @@ function getWeather(cityName)
     })
     .catch(function(error) {
     console.log('Fetch error: ', error.message);
-})
+    })
 }

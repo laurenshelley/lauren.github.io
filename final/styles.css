@@ -1515,3 +1515,10 @@ section {
   border-color: grey;
   padding: 2em;
 }
+.resource {
+  font-size: 30px;
+  text-align: center;
+  padding: 3em;
+  background-color: black;
+  color: white;
+}
