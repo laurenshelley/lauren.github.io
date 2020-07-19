@@ -65,8 +65,6 @@ border-left: none; */
 
 h5 {
   text-align: center;
-  background-color: whitesmoke;
-  padding: 1em;
 }
 
 h6 {
@@ -100,14 +98,16 @@ p {
   color: white;
   padding-top: 1em;
   padding-bottom: 1.5em;
+ 
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
 }
 
 .top-left {
@@ -115,6 +115,10 @@ img {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -131,10 +135,15 @@ img {
   background: rgba(255, 255, 255, 0.7);
   height: 60%;
   width: 60%;
+ 
 }
 
 .logohomes {
   border: none;
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logotwo {
@@ -162,6 +171,7 @@ img {
   border-right-color: black;
   border-top: none;
   border-bottom: none;
+ 
 }
 
 .mySlides1 {
@@ -449,6 +459,10 @@ label>input {
   border: solid;
   border-width: .75em;
   border-color: white;
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .head {
@@ -1495,5 +1509,4 @@ section {
   background-color: white;
   border-color: grey;
   padding: 2em;
-  font-size: 20px;
 }
