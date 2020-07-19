@@ -23,27 +23,26 @@ fetch(requestURL)
             let email = document.createElement('h5');
             let services = document.createElement('h5');
             let history = document.createElement('h5');
-            let ordinancesched = document.createElement('h5');
             let sesssched = document.createElement('h5');
             let templeclosure = document.createElement('h5');
             let image = document.createElement('img');
-            //let weather = document.creat...('h5');
+            let weather = document.createElement('h5');
         
 
             image.setAttribute('src',locations[i].imageurl);
             
 
-            name.textContent = locations[i].name;
+            name.textContent = locations[i].city + " " + locations[i].state;
             address.textContent = locations[i].address;
             phone.textContent = locations[i].phone;
             email.textContent = locations[i].email;
             services.textContent = locations[i].services;
             history.textContent = locations[i].history;
-            ordinancesched.textContent = locations[i].ordinancesched;
             sesssched.textContent = locations[i].sesssched;
             templeclosure.textContent = locations[i].templeclosure;
-
-            //weather.textContent = getWeather(lacations[i].name);
+            weather.textContent = getWeather(locations[i].city)
+    
+        
 
             card.appendChild(name);
             card.appendChild(image);
@@ -52,7 +51,6 @@ fetch(requestURL)
             card.appendChild(email);
             card.appendChild(services);
             card.appendChild(history);
-            card.appendChild(ordinancesched);
             card.appendChild(sesssched);
             card.appendChild(templeclosure);
            
@@ -68,5 +66,20 @@ fetch(requestURL)
 
 function getWeather(cityName)
 {
-    const weatherURL = 'api.openweathermap.org/data/2.5/weather?q=cityName&appid={your api key}'
+
+    const weatherURL = 'api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=34b224737efc91d0ae263275f450aecb'
+
+    fetch(weatherURL)
+    .then (function (response) {
+        if(response.ok) {
+            return response.json()
+        }
+        throw new Error('Network response was not ok');
+    })
+    .then(function (weatherObj) {
+        console.log(weatherObj);
+    })
+    .catch(function(error) {
+    console.log('Fetch error: ', error.message);
+})
 }
