@@ -13,21 +13,21 @@ fetch(requestURL)
         for (let i = 0; i < locations.length; i++) {
             let card = document.createElement('section');
             let h4 = document.createElement('h4');
-            let p = document.createElement('p');
+            let h5 = document.createElement('h5');
             let image = document.createElement('img');
-            // let lineBreak = document.createElement ("br");
+        
+
             image.setAttribute('src',locations[i].imageurl);
             
 
             h4.textContent = locations[i].name
-            p.textContent = locations[i].address 
+            h5.textContent = locations[i].address
          
-            p.textContent = locations[i].phone 
 
             card.appendChild(h4);
             card.appendChild(image);
-            card.appendChild(p);
-            card.appendChild(p);
+            card.appendChild(h5);
+           
 
             document.querySelector('div.cards').appendChild(card);
         }
