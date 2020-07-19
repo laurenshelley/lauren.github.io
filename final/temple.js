@@ -72,7 +72,7 @@ function getWeather(cityName)
     fetch(WeatherURL)
     .then (function (response) {
         if(response.ok) {
-            return response.json()
+            return response.json();
         }
         throw new Error('Network response was not ok');
     })
